@@ -1,0 +1,1 @@
+Other configs like services workers or manifests if implemented.
