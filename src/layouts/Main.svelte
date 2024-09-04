@@ -1,6 +1,6 @@
 <!-- Main Start -->
 <main
-  class="flex flex-col items-center justify-center flex-grow w-screen min-h-full overflow-y-scroll bg-primary element"
+  class="flex flex-col flex-grow min-h-full overflow-y-scroll bg-slate-200 element"
 >
   <slot />
 </main>

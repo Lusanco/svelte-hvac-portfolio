@@ -1,0 +1,123 @@
+<script>
+  import { link } from "svelte-routing";
+
+  let menuOpen = false;
+
+  function toggleMenu() {
+    menuOpen = !menuOpen;
+
+    if (menuOpen) {
+      document.addEventListener("click", handleOutsideClick);
+    } else {
+      // Remove event listener when menu is closed
+      document.removeEventListener("click", handleOutsideClick);
+    }
+  }
+
+  function handleOutsideClick(event) {
+    const menu = document.getElementById("menu-ul");
+    const button = document.getElementById("menu-btn");
+    if (!menu.contains(event.target) && !button.contains(event.target)) {
+      menuOpen = false;
+      menu.classList.remove("flex");
+      menu.classList.add("hidden");
+    }
+  }
+</script>
+
+<header
+  class="h-20 font-semibold min-h-20 bg-slate-100 max-h-20 drop-shadow-2xl text-celestialBlue"
+>
+  <nav class="flex items-center justify-between h-20 px-4">
+    <a use:link use:link href="/">
+      <img
+        class="object-contain w-16 h-16 mix-blend-multiply"
+        src="/imgs/828logoOrig.jpg"
+        alt="Logo"
+      />
+    </a>
+
+    <!--vv Mobile Menu vv-->
+    <button
+      id="menu-btn"
+      on:click={toggleMenu}
+      class={`w-16 h-16 border-2 rounded-md flex justify-center items-center transition-all duration-300 border-celestialBlue sm:hidden ${menuOpen ? "-rotate-90  bg-celestialBlue hover:bg-celestialBlue/80 text-slate-100" : "rotate-0  bg-slate-100 hover:bg-slate-200"}`}
+    >
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        class="size-6"
+      >
+        <path
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+        />
+      </svg>
+    </button>
+    <ul
+      id="menu-ul"
+      class={`absolute top-0 z-50 left-0 right-0 flex-col w-full mt-20 text-center flex drop-shadow-2xl sm:hidden bg-slate-100 transition-all duration-300 ease-in-out ${menuOpen ? "opacity-100" : "invisible opacity-0"}`}
+    >
+      <a use:link href="/about-us">
+        <li
+          class="w-full p-4 transition-all duration-300 border-b-2 hover:bg-celestialBlue hover:text-slate-100"
+        >
+          About Us
+        </li>
+      </a>
+      <a use:link href="/services">
+        <li
+          class="w-full p-4 transition-all duration-300 border-b-2 hover:bg-celestialBlue hover:text-slate-100"
+        >
+          Services
+        </li>
+      </a>
+      <a use:link href="/works">
+        <li
+          class="w-full p-4 transition-all duration-300 border-b-2 hover:bg-celestialBlue hover:text-slate-100"
+        >
+          Works
+        </li>
+      </a>
+      <a use:link href="/articles">
+        <li
+          class="w-full p-4 transition-all duration-300 border-b-2 hover:bg-celestialBlue hover:text-slate-100"
+        >
+          Articles
+        </li>
+      </a>
+      <a use:link href="/contact-us">
+        <li
+          class="w-full p-4 transition-all duration-300 border-b-2 hover:bg-celestialBlue hover:text-slate-100"
+        >
+          Contact Us
+        </li>
+      </a>
+    </ul>
+    <!--^^ Mobile UL ^^-->
+
+    <!--vv Desktop Menu vv-->
+    <ul class="hidden gap-4 sm:flex">
+      <a use:link href="/about-us">
+        <li>About Us</li>
+      </a>
+      <a use:link href="/services">
+        <li>Services</li>
+      </a>
+      <a use:link href="/works">
+        <li>Works</li>
+      </a>
+      <a use:link href="/articles">
+        <li>Articles</li>
+      </a>
+      <a use:link href="/contact-us">
+        <li>Contact Us</li>
+      </a>
+    </ul>
+    <!--^^ Desktop UL ^^-->
+  </nav>
+</header>
