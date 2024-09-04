@@ -16,7 +16,7 @@
       <a
         use:link
         href="/works"
-        class="flex px-4 py-2 mx-auto text-lg font-semibold rounded-md lg:absolute bottom-8 right-10 hover:bg-lightCyan/90 bg-lightCyan w-fit text-gunmetal"
+        class="flex px-4 py-2 mx-auto text-lg font-semibold rounded-md lg:absolute bottom-8 right-12 hover:bg-lightCyan/90 bg-lightCyan w-fit text-gunmetal"
         >Our Works</a
       >
     </div>

@@ -16,6 +16,9 @@
   import Articles from "./routes/Articles.svelte";
 </script>
 
+<head>
+  <title>828 LLC</title>
+</head>
 <div class="flex flex-col min-h-screen">
   <Header />
   <Main>

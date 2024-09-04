@@ -23,6 +23,11 @@
       menu.classList.add("hidden");
     }
   }
+
+  function closeMenuOnClick(event) {
+    // Close the menu after link navigation
+    menuOpen = false;
+  }
 </script>
 
 <header
@@ -37,7 +42,6 @@
       />
     </a>
 
-    <!--vv Mobile Menu vv-->
     <button
       id="menu-btn"
       on:click={toggleMenu}
@@ -62,35 +66,35 @@
       id="menu-ul"
       class={`absolute top-0 z-50 left-0 right-0 flex-col w-full mt-20 text-center flex drop-shadow-2xl sm:hidden bg-slate-100 transition-all duration-300 ease-in-out ${menuOpen ? "opacity-100" : "invisible opacity-0"}`}
     >
-      <a use:link href="/about-us">
+      <a use:link href="/about-us" on:click={closeMenuOnClick}>
         <li
           class="w-full p-4 transition-all duration-300 border-b-2 hover:bg-celestialBlue hover:text-slate-100"
         >
           About Us
         </li>
       </a>
-      <a use:link href="/services">
+      <a use:link href="/services" on:click={closeMenuOnClick}>
         <li
           class="w-full p-4 transition-all duration-300 border-b-2 hover:bg-celestialBlue hover:text-slate-100"
         >
           Services
         </li>
       </a>
-      <a use:link href="/works">
+      <a use:link href="/works" on:click={closeMenuOnClick}>
         <li
           class="w-full p-4 transition-all duration-300 border-b-2 hover:bg-celestialBlue hover:text-slate-100"
         >
           Works
         </li>
       </a>
-      <a use:link href="/articles">
+      <a use:link href="/articles" on:click={closeMenuOnClick}>
         <li
           class="w-full p-4 transition-all duration-300 border-b-2 hover:bg-celestialBlue hover:text-slate-100"
         >
           Articles
         </li>
       </a>
-      <a use:link href="/contact-us">
+      <a use:link href="/contact-us" on:click={closeMenuOnClick}>
         <li
           class="w-full p-4 transition-all duration-300 border-b-2 hover:bg-celestialBlue hover:text-slate-100"
         >
@@ -98,9 +102,6 @@
         </li>
       </a>
     </ul>
-    <!--^^ Mobile UL ^^-->
-
-    <!--vv Desktop Menu vv-->
     <ul class="hidden gap-4 sm:flex">
       <a use:link href="/about-us">
         <li>About Us</li>
@@ -118,6 +119,5 @@
         <li>Contact Us</li>
       </a>
     </ul>
-    <!--^^ Desktop UL ^^-->
   </nav>
 </header>
