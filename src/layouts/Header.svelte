@@ -1,5 +1,12 @@
 <script>
   import { link } from "svelte-routing";
+  import { urlLocation } from "../scripts/stores";
+
+  let urlStyles = " border-b-4 border-celestialBlue ";
+
+  $: {
+    console.log($urlLocation);
+  }
 
   let menuOpen = false;
 
@@ -62,6 +69,8 @@
         />
       </svg>
     </button>
+
+    <!-- Mobile View -->
     <ul
       id="menu-ul"
       class={`absolute top-0 z-50 left-0 right-0 flex-col w-full mt-20 text-center flex drop-shadow-2xl sm:hidden bg-slate-100 transition-all duration-300 ease-in-out ${menuOpen ? "opacity-100" : "invisible opacity-0"}`}
@@ -96,26 +105,48 @@
       </a>
       <a use:link href="/contact-us" on:click={closeMenuOnClick}>
         <li
-          class="w-full p-4 transition-all duration-300 border-b-2 hover:bg-celestialBlue hover:text-slate-100"
+          class="w-full p-4 transition-all duration-300 border-b-2 hover:text-slate-100"
         >
           Contact Us
         </li>
       </a>
     </ul>
-    <ul class="hidden gap-4 sm:flex">
-      <a use:link href="/about-us">
+
+    <!-- Desktop View -->
+    <ul class="hidden h-8 gap-4 sm:flex">
+      <a
+        use:link
+        href="/about-us"
+        class={`transition-all duration-150 hover:border-celestialBlue hover:border-b-4  ${$urlLocation === "/about-us" ? urlStyles : "border-transparent"}`}
+      >
         <li>About Us</li>
       </a>
-      <a use:link href="/services">
+      <a
+        use:link
+        href="/services"
+        class={`transition-all duration-150 hover:border-celestialBlue hover:border-b-4  ${$urlLocation === "/services" ? urlStyles : "border-transparent"}`}
+      >
         <li>Services</li>
       </a>
-      <a use:link href="/works">
+      <a
+        use:link
+        href="/works"
+        class={`transition-all duration-150 hover:border-celestialBlue hover:border-b-4  ${$urlLocation === "/works" ? urlStyles : "border-transparent"}`}
+      >
         <li>Works</li>
       </a>
-      <a use:link href="/articles">
+      <a
+        use:link
+        href="/articles"
+        class={`transition-all duration-150 hover:border-celestialBlue hover:border-b-4  ${$urlLocation === "/articles" ? urlStyles : "border-transparent"}`}
+      >
         <li>Articles</li>
       </a>
-      <a use:link href="/contact-us">
+      <a
+        use:link
+        href="/contact-us"
+        class={`transition-all duration-150 hover:border-celestialBlue hover:border-b-4  ${$urlLocation === "/contact-us" ? urlStyles : "border-transparent"}`}
+      >
         <li>Contact Us</li>
       </a>
     </ul>
