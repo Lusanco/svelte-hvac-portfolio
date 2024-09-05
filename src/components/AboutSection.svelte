@@ -3,7 +3,7 @@
 </script>
 
 <section
-  class="flex flex-col p-8 font-semibold text-center shadow-2xl bg-gunmetal text-lightCyan"
+  class="flex flex-col p-8 font-semibold text-center shadow-2xl bg-gunmetal text-slate-100"
 >
   <h1 class="text-4xl">About Us</h1>
   <br />
@@ -16,7 +16,7 @@
   <a
     use:link
     href="/about-us"
-    class="px-4 py-2 mx-auto text-lg font-semibold rounded-md hover:bg-lightCyan/90 bg-lightCyan w-fit text-gunmetal"
+    class="px-4 py-2 mx-auto text-lg font-semibold rounded-md hover:bg-slate-100/90 bg-slate-100 w-fit text-gunmetal"
     >Learn More</a
   >
 </section>

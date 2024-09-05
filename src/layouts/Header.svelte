@@ -1,6 +1,7 @@
 <script>
   import { link } from "svelte-routing";
   import { urlLocation } from "../scripts/stores";
+  import Logo from "../components/Logo.svelte";
 
   let urlStyles = " border-b-4 border-celestialBlue ";
 
@@ -42,11 +43,7 @@
 >
   <nav class="flex items-center justify-between h-20 px-4">
     <a use:link use:link href="/">
-      <img
-        class="object-contain w-16 h-16 mix-blend-multiply"
-        src="/imgs/828logoOrig.jpg"
-        alt="Logo"
-      />
+      <Logo classNames="object-contain w-16 h-16 mix-blend-multiply" />
     </a>
 
     <button
