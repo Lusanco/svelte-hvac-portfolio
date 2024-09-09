@@ -15,7 +15,7 @@
       <h1 class="text-4xl">Beyond HVAC</h1>
       <h3 class="text-2xl">Comprehensive Building Solutions</h3>
       <br />
-      <p class="text-lg">
+      <p class="text-lg text-justify">
         From HVAC to energy optimization, we’ve got you covered. Our team of
         experienced professionals offers comprehensive solutions tailored to
         your building’s specific needs. We specialize in HVAC systems, energy
@@ -30,7 +30,7 @@
         href="/contact-us"
         class="p-4 font-semibold text-center rounded-md hover:bg-celestialBlue/90 bg-celestialBlue text-slate-100"
       >
-        Get A Quote
+        Contact Us
       </a>
     </div>
   </div>

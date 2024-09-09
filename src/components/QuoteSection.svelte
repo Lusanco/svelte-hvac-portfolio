@@ -10,6 +10,6 @@
   <a
     use:link
     href="/contact-us"
-    class="p-4 rounded-md bg-slate-100 text-celestialBlue">Get a Quote Today!</a
+    class="p-4 rounded-md bg-slate-100 text-celestialBlue">Contact Us</a
   >
 </section>

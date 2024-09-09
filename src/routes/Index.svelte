@@ -1,6 +1,6 @@
 <script>
   import AboutSection from "../components/AboutSection.svelte";
-  import HeroSection from "../components/HeroSection.svelte";
+  import IndexHero from "../components/IndexHero.svelte";
   import ProjectsSection from "../components/ProjectsSection.svelte";
   import ServicesSection from "../components/ServicesSection.svelte";
   import { urlLocation } from "../scripts/stores";
@@ -9,7 +9,7 @@
 </script>
 
 <!-- Index Start -->
-<HeroSection />
+<IndexHero />
 <AboutSection />
 <ServicesSection />
 <ProjectsSection />
