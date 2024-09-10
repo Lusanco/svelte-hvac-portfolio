@@ -21,7 +21,7 @@
     <span
       class="inline-flex justify-center mt-4 sm:ml-auto sm:mt-0 sm:justify-start"
     >
-      <a class="">
+      <a href="/" class="">
         <svg
           fill="currentColor"
           stroke-linecap="round"
@@ -35,7 +35,7 @@
           ></path>
         </svg>
       </a>
-      <a class="ml-3">
+      <a href="/" class="ml-3">
         <svg
           fill="currentColor"
           stroke-linecap="round"
@@ -49,7 +49,7 @@
           ></path>
         </svg>
       </a>
-      <a class="ml-3">
+      <a href="/" class="ml-3">
         <svg
           fill="none"
           stroke="currentColor"
@@ -64,7 +64,7 @@
           ></path>
         </svg>
       </a>
-      <a class="ml-3">
+      <a href="/" class="ml-3">
         <svg
           fill="currentColor"
           stroke="currentColor"
