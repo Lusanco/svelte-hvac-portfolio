@@ -28,7 +28,7 @@
       <a
         use:link
         href="/contact-us"
-        class="p-4 font-semibold text-center rounded-md hover:bg-celestialBlue/90 bg-celestialBlue text-slate-100"
+        class="p-4 font-semibold text-center transition-all duration-300 rounded-md shadow-md drop-shadow-md hover:bg-celestialBlue/90 bg-celestialBlue text-slate-100"
       >
         Contact Us
       </a>

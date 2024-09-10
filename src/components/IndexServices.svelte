@@ -20,7 +20,7 @@
       <a
         use:link
         href="/services"
-        class="flex px-4 py-2 mx-auto text-lg font-semibold rounded-md lg:absolute bottom-8 left-12 hover:bg-celestialBlue/90 bg-celestialBlue w-fit"
+        class="flex px-4 py-2 mx-auto text-lg font-semibold transition-all duration-300 rounded-md shadow-md drop-shadow-md lg:absolute bottom-8 left-12 hover:bg-celestialBlue/90 bg-celestialBlue w-fit"
         >Our Services</a
       >
     </div>

@@ -10,6 +10,7 @@
   <a
     use:link
     href="/contact-us"
-    class="p-4 rounded-md bg-slate-100 text-celestialBlue">Contact Us</a
+    class="p-4 transition-all duration-300 rounded-md shadow-md bg-slate-100 text-celestialBlue drop-shadow-md hover:bg-white"
+    >Contact Us</a
   >
 </section>
