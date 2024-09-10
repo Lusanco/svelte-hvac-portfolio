@@ -18,6 +18,10 @@
 
 <head>
   <title>828 LLC</title>
+  <script
+    src="https://kit.fontawesome.com/48f2b60ee4.js"
+    crossorigin="anonymous"
+  ></script>
 </head>
 <div class="flex flex-col min-h-screen">
   <Header />

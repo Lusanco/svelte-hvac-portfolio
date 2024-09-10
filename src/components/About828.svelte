@@ -3,7 +3,7 @@
   class="bg-center bg-no-repeat bg-cover shadow-2xl"
 >
   <div
-    class="transition-all duration-300 min-h-96 bg-black/30 text-slate-100 hover:bg-black/50"
+    class="transition-all duration-300 min-h-96 bg-black/50 text-slate-100 hover:bg-black/60"
   >
     <div
       class="flex flex-col max-w-4xl gap-4 px-4 py-12 m-auto text-xl font-semibold text-justify"
