@@ -1,16 +1,16 @@
+<!-- Index Start -->
 <script>
-  import AboutSection from "../components/AboutSection.svelte";
   import IndexHero from "../components/IndexHero.svelte";
-  import ProjectsSection from "../components/ProjectsSection.svelte";
-  import ServicesSection from "../components/ServicesSection.svelte";
+  import IndexAbout from "../components/IndexAbout.svelte";
+  import IndexServices from "../components/IndexServices.svelte";
+  import IndexProjects from "../components/IndexProjects.svelte";
   import { urlLocation } from "../scripts/stores";
 
   $urlLocation = window.location.pathname;
 </script>
 
-<!-- Index Start -->
 <IndexHero />
-<AboutSection />
-<ServicesSection />
-<ProjectsSection />
+<IndexAbout />
+<IndexServices />
+<IndexProjects />
 <!-- Index End -->

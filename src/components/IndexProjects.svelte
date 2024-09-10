@@ -15,9 +15,9 @@
       <br />
       <a
         use:link
-        href="/works"
+        href="/projects"
         class="flex px-4 py-2 mx-auto text-lg font-semibold rounded-md lg:absolute bottom-8 right-12 hover:bg-slate-100/90 bg-slate-100 w-fit text-gunmetal"
-        >Our Works</a
+        >Our Projects</a
       >
     </div>
   </div>

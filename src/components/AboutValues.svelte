@@ -9,57 +9,41 @@
       <div class="flex">
         <div class="ml-3">
           <dt class="text-2xl font-bold">Integrity</dt>
-          <dd class="mt-2">
-            We act with honesty and transparency in all our relationships,
-            building a strong foundation of trust.
-          </dd>
+          <dd class="text-gunmetal/60">leading to total trust.</dd>
         </div>
       </div>
       <div class="flex">
         <div class="ml-3">
           <dt class="text-2xl font-bold">Empathy</dt>
-          <dd class="mt-2">
-            We actively listen to our clients and understand their needs,
-            tailoring our solutions to their specific requirements.
-          </dd>
+          <dd class="text-gunmetal/60">that understands and respects.</dd>
         </div>
       </div>
       <div class="flex">
         <div class="ml-3">
           <dt class="text-2xl font-bold">Innovation</dt>
-          <dd class="mt-2">
-            We are always at the forefront, seeking new technologies and
-            solutions to improve the efficiency and sustainability of our
-            systems.
-          </dd>
+          <dd class="text-gunmetal/60">that advances and transforms.</dd>
         </div>
       </div>
       <div class="flex">
         <div class="ml-3">
           <dt class="text-2xl font-bold">Efficiency</dt>
-          <dd class="mt-2">
-            We optimize our processes and resources to ensure high-quality
-            results on time and within budget, maximizing our clients' return on
-            investment.
+          <dd class="text-gunmetal/60">
+            that makes the effort profitable in all ways.
           </dd>
         </div>
       </div>
       <div class="flex">
         <div class="ml-3">
           <dt class="text-2xl font-bold">Sustainability</dt>
-          <dd class="mt-2">
-            We design solutions that minimize environmental impact and promote
-            the efficient use of natural resources.
+          <dd class="text-gunmetal/60">
+            that guarantees the present and the future.
           </dd>
         </div>
       </div>
       <div class="flex">
         <div class="ml-3">
-          <dt class="text-2xl font-bold">Responsibility</dt>
-          <dd class="mt-2">
-            We are committed to contributing to the well-being of our community
-            and operating in an ethical and responsible manner.
-          </dd>
+          <dt class="text-2xl font-bold">Social Responsibility</dt>
+          <dd class="text-gunmetal/60">that encompasses everything.</dd>
         </div>
       </div>
     </dl>

@@ -12,8 +12,8 @@
   import About from "./routes/About.svelte";
   import Contact from "./routes/Contact.svelte";
   import Services from "./routes/Services.svelte";
-  import Works from "./routes/Works.svelte";
-  import Articles from "./routes/Articles.svelte";
+  import Education from "./routes/Education.svelte";
+  import Projects from "./routes/Projects.svelte";
 </script>
 
 <head>
@@ -25,10 +25,10 @@
     <Router>
       <Route path="/" component={Index} />
       <Route path="/about-us" component={About} />
-      <Route path="/articles" component={Articles} />
+      <Route path="/education" component={Education} />
       <Route path="/contact-us" component={Contact} />
       <Route path="/services" component={Services} />
-      <Route path="/works" component={Works} />
+      <Route path="/projects" component={Projects} />
     </Router>
   </Main>
   <Footer />

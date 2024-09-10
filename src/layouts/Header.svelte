@@ -86,18 +86,18 @@
           Services
         </li>
       </a>
-      <a use:link href="/works" on:click={closeMenuOnClick}>
+      <a use:link href="/projects" on:click={closeMenuOnClick}>
         <li
           class="w-full p-4 transition-all duration-300 border-b-2 hover:bg-celestialBlue hover:text-slate-100"
         >
-          Works
+          Projects
         </li>
       </a>
-      <a use:link href="/articles" on:click={closeMenuOnClick}>
+      <a use:link href="/education" on:click={closeMenuOnClick}>
         <li
           class="w-full p-4 transition-all duration-300 border-b-2 hover:bg-celestialBlue hover:text-slate-100"
         >
-          Articles
+          Education
         </li>
       </a>
       <a use:link href="/contact-us" on:click={closeMenuOnClick}>
@@ -127,17 +127,17 @@
       </a>
       <a
         use:link
-        href="/works"
-        class={`transition-all duration-150 hover:border-celestialBlue hover:border-b-4  ${$urlLocation === "/works" ? urlStyles : "border-transparent"}`}
+        href="/projects"
+        class={`transition-all duration-150 hover:border-celestialBlue hover:border-b-4  ${$urlLocation === "/projects" ? urlStyles : "border-transparent"}`}
       >
-        <li>Works</li>
+        <li>Projects</li>
       </a>
       <a
         use:link
-        href="/articles"
-        class={`transition-all duration-150 hover:border-celestialBlue hover:border-b-4  ${$urlLocation === "/articles" ? urlStyles : "border-transparent"}`}
+        href="/education"
+        class={`transition-all duration-150 hover:border-celestialBlue hover:border-b-4  ${$urlLocation === "/education" ? urlStyles : "border-transparent"}`}
       >
-        <li>Articles</li>
+        <li>Education</li>
       </a>
       <a
         use:link
