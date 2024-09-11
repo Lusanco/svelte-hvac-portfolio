@@ -4,23 +4,11 @@
   export let pathDescription = "Img Description";
 </script>
 
-<div
-  class="relative flex flex-col items-center justify-center w-full max-w-4xl shadow-lg bg-slate-100 drop-shadow-lg"
->
-  <!-- Blurred Background using ::before pseudo-element -->
-  <div
-    class="relative w-full h-full overflow-hidden bg-center bg-no-repeat bg-cover"
-    style="background-image: url('imgs/{pathFolder}/{pathName}');"
-  >
-    <!-- Blurred Background -->
-    <div
-      class="absolute inset-0 w-full h-full bg-center bg-cover blur-md"
-      style="background-image: url('imgs/{pathFolder}/{pathName}');"
-    ></div>
-
+<div class="flex flex-col shadow-lg h-[30rem] bg-slate-100 drop-shadow-lg w-96">
+  <div class="flex flex-col overflow-hidden h-80">
     <!-- Main Image -->
     <img
-      class="relative object-contain object-center w-full max-h-96"
+      class="flex object-contain object-center w-full m-auto"
       src={"imgs/" + pathFolder + "/" + pathName}
       alt={pathName}
     />
@@ -28,7 +16,7 @@
 
   <!-- Description -->
   <div
-    class="w-full p-4 text-xl font-semibold text-justify h-fit text-gunmetal/80"
+    class="w-full h-40 p-4 overflow-y-scroll text-xl font-semibold text-justify text-gunmetal/80"
   >
     {pathDescription}
   </div>

@@ -4,7 +4,7 @@
 </script>
 
 <section
-  class="flex flex-col items-center justify-center gap-4 px-4 py-16 bg-slate-200 md:flex-wrap"
+  class="flex flex-wrap justify-center w-full gap-4 px-4 py-16 m-auto bg-slate-200"
 >
   {#each Object.entries(projects) as [pathName, pathDescription], index}
     {#if index + 1 <= Object.keys(projects).length}
