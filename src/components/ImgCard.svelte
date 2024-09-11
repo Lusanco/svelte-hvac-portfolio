@@ -5,7 +5,7 @@
 </script>
 
 <div class="flex flex-col shadow-lg h-[30rem] bg-slate-100 drop-shadow-lg w-96">
-  <div class="flex flex-col overflow-hidden h-80">
+  <div class="flex flex-col overflow-hidden h-80 bg-black/20">
     <!-- Main Image -->
     <img
       class="flex object-contain object-center w-full m-auto"
