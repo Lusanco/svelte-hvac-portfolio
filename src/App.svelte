@@ -26,7 +26,7 @@
     crossorigin="anonymous"
   ></script>
 
-  <link rel="stylesheet" href="src/styles/splidejs.css" />
+  <link rel="stylesheet" href="src/styles/styles.css" />
 </head>
 
 <!-- Layouts, Router and Routes -->

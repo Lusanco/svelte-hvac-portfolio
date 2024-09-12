@@ -44,7 +44,7 @@
 
     <!-- Description -->
     <div
-      class="w-full h-40 p-4 overflow-y-scroll text-xl font-semibold text-justify text-gunmetal/80 bg-slate-100"
+      class="w-full h-40 p-4 overflow-y-scroll text-xl font-semibold text-justify -z-10 text-gunmetal/80 bg-slate-100"
     >
       {project.description}
     </div>

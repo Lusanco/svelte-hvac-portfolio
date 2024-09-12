@@ -39,9 +39,9 @@
 </script>
 
 <header
-  class="h-20 font-semibold min-h-20 bg-slate-100 max-h-20 drop-shadow-2xl text-celestialBlue"
+  class="z-50 w-full h-20 font-semibold min-h-20 bg-slate-100 max-h-20 drop-shadow-2xl text-celestialBlue"
 >
-  <nav class="flex items-center justify-between h-20 px-4">
+  <nav class="flex items-center justify-between h-20 px-4 z-[9999]">
     <a use:link use:link href="/">
       <Logo classNames="object-contain w-16 h-16 mix-blend-multiply" />
     </a>
@@ -70,7 +70,7 @@
     <!-- Mobile View -->
     <ul
       id="menu-ul"
-      class={`absolute top-0 z-50 left-0 right-0 flex-col w-full mt-20 text-center flex drop-shadow-2xl sm:hidden bg-slate-100 transition-all duration-300 ease-in-out ${menuOpen ? "opacity-100" : "invisible opacity-0"}`}
+      class={`absolute top-0 left-0 right-0 flex-col w-full mt-20 text-center flex drop-shadow-2xl sm:hidden bg-slate-100 transition-all duration-300 ease-in-out ${menuOpen ? "opacity-100 visible" : "invisible opacity-0"}`}
     >
       <a use:link href="/about-us" on:click={closeMenuOnClick}>
         <li
