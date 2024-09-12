@@ -10,5 +10,4 @@
   <div class="flex flex-wrap justify-center w-full gap-4 m-auto">
     <ImgCard />
   </div>
-  <ImgSwiper />
 </section>

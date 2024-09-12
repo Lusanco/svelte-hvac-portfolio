@@ -1,25 +1,50 @@
 <script>
   import projects from "../scripts/projectsContent";
+
+  import { Splide, SplideSlide } from "@splidejs/svelte-splide";
+
+  // Default theme
+  import "@splidejs/svelte-splide/css";
+
+  // or other themes
+  import "@splidejs/svelte-splide/css/skyblue";
+  import "@splidejs/svelte-splide/css/sea-green";
+
+  // or only core styles
+  import "@splidejs/svelte-splide/css/core";
+
+  const options = {
+    type: "loop",
+    autoplay: true,
+    interval: 3000,
+    rewind: true,
+    arrows: false,
+    pagination: false,
+    padding: "0%",
+    gap: 0,
+  };
 </script>
 
 {#each projects as project}
   <div
-    class="flex flex-col shadow-lg h-[30rem] bg-slate-100 drop-shadow-lg w-96"
+    class="flex flex-col items-center justify-center mx-auto shadow-lg w-96 h-fit bg-black/10 drop-shadow-lg"
   >
-    <div class="flex flex-col overflow-hidden h-80 bg-black/20">
+    <Splide {options}>
       {#each project.images as image}
-        <!-- Main Image -->
-        <img
-          class="flex object-contain object-center w-full m-auto"
-          src={image}
-          alt=""
-        />
+        <SplideSlide>
+          <!-- Main Image -->
+          <img
+            class="flex flex-col object-contain object-center mx-auto h-80"
+            src={image}
+            alt=""
+          />
+        </SplideSlide>
       {/each}
-    </div>
+    </Splide>
 
     <!-- Description -->
     <div
-      class="w-full h-40 p-4 overflow-y-scroll text-xl font-semibold text-justify text-gunmetal/80"
+      class="w-full h-40 p-4 overflow-y-scroll text-xl font-semibold text-justify text-gunmetal/80 bg-slate-100"
     >
       {project.description}
     </div>

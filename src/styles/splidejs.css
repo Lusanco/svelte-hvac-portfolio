@@ -1,0 +1,9 @@
+/* Splide */
+.splide:not(.is-overflow) .splide__arrows {
+  display: none;
+}
+
+.splide {
+  padding: 0;
+  margin: 0;
+}
