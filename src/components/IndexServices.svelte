@@ -7,11 +7,11 @@
     class="text-slate-100 bg-no-repeat bg-cover bg-center bg-[url('/imgs/Chilis-Isla-Verde-OGR-closed-control-boxes.jpg')]"
   >
     <div
-      class="flex flex-col gap-8 p-8 px-2 py-4 font-semibold bg-black/50 hover:bg-black/60 md:p-12"
+      class="flex flex-col gap-8 p-8 px-2 py-8 font-semibold bg-black/50 hover:bg-black/60 md:p-12"
     >
       <h1 class="text-4xl">Services</h1>
 
-      <p class="text-xl">
+      <p class="px-1 text-xl text-justify md:text-center lg:text-right">
         Discover our comprehensive range of HVAC and mechanical services,
         including installation, maintenance, energy efficiency, and custom
         solutions.
