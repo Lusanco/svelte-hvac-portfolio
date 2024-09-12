@@ -1,23 +1,27 @@
 <script>
-  export let pathFolder = 0; // Int
-  export let pathName = "Path to Img";
-  export let pathDescription = "Img Description";
+  import projects from "../scripts/projectsContent";
 </script>
 
-<div class="flex flex-col shadow-lg h-[30rem] bg-slate-100 drop-shadow-lg w-96">
-  <div class="flex flex-col overflow-hidden h-80 bg-black/20">
-    <!-- Main Image -->
-    <img
-      class="flex object-contain object-center w-full m-auto"
-      src={"imgs/" + pathFolder + "/" + pathName}
-      alt={pathName}
-    />
-  </div>
-
-  <!-- Description -->
+{#each projects as project}
   <div
-    class="w-full h-40 p-4 overflow-y-scroll text-xl font-semibold text-justify text-gunmetal/80"
+    class="flex flex-col shadow-lg h-[30rem] bg-slate-100 drop-shadow-lg w-96"
   >
-    {pathDescription}
+    <div class="flex flex-col overflow-hidden h-80 bg-black/20">
+      {#each project.images as image}
+        <!-- Main Image -->
+        <img
+          class="flex object-contain object-center w-full m-auto"
+          src={image}
+          alt=""
+        />
+      {/each}
+    </div>
+
+    <!-- Description -->
+    <div
+      class="w-full h-40 p-4 overflow-y-scroll text-xl font-semibold text-justify text-gunmetal/80"
+    >
+      {project.description}
+    </div>
   </div>
-</div>
+{/each}

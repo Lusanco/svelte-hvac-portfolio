@@ -15,3 +15,9 @@
     overflow: -moz-scrollbars-none;
     -ms-overflow-style: none; /* IE and Edge */
   }
+
+  /* Swiper */
+  .swiper {
+    width: 600px;
+    height: 300px;
+  }

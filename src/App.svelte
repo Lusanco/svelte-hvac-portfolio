@@ -16,13 +16,33 @@
   import Projects from "./routes/Projects.svelte";
 </script>
 
+<!-- Head Tag Imports -->
 <head>
   <title>828 LLC</title>
+
+  <!-- Font Awesome -->
   <script
     src="https://kit.fontawesome.com/48f2b60ee4.js"
     crossorigin="anonymous"
   ></script>
+
+  <!-- Swiper Elements -->
+  <script
+    src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"
+  ></script>
+
+  <!-- Swiper Vanilla CDN -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+  />
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"
+  ></script>
 </head>
+
+<!-- Layouts, Router and Routes -->
 <div class="flex flex-col min-h-screen">
   <Header />
   <Main>

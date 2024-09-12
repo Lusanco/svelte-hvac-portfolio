@@ -7,7 +7,7 @@
       <br />
       <p>
         At 828 LLC, we offer a wide range of mechanical services designed to
-        optimize your comfort and energy efficiency. From HVAC installation to
+        optimize your comfort and energy efficiency. From HVAC installations to
         preventive maintenance, our experts handle it all.
       </p>
     </div>
@@ -20,7 +20,7 @@
         <ul class="md:pl-4">
           <li class="md:list-disc">Commercial and Residential Split Units</li>
           <li class="md:list-disc">VRF Systems</li>
-          <li class="md:list-disc">Package Units</li>
+          <li class="md:list-disc">Packaged Units</li>
           <li class="md:list-disc">Chillers</li>
           <li class="md:list-disc">Refrigeration and Chilled Water Piping</li>
           <li class="md:list-disc">Air Duct Systems</li>

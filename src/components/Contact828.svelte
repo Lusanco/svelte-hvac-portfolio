@@ -27,7 +27,7 @@
       </div>
       <div class="flex flex-col w-full m-auto">
         <h1>Email Us</h1>
-        <p class="text-sm text-slate-100/60">geraldo.pena@828-llc.com</p>
+        <p class="text-sm text-slate-100/60">info@828-llc.com</p>
       </div>
     </a>
     <a

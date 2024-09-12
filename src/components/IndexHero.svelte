@@ -7,10 +7,10 @@
 <section class="flex flex-col shadow-2xl md:flex-row overflow-clip">
   <!--vv Left/Top Side vv-->
   <div
-    class="bg-[url('/imgs/repairmen-taking-apart-hvac-system.jpg')] text-slate-100 bg-no-repeat bg-cover bg-center md:w-2/3"
+    class="bg-[url('/imgs/IMG_3566.jpg')] text-slate-100 bg-no-repeat bg-cover bg-center md:w-2/3"
   >
     <div
-      class="flex flex-col px-2 py-12 font-semibold text-center md:text-left bg-black/70 md:p-12"
+      class="flex flex-col px-2 py-12 font-semibold text-center md:text-left bg-black/50 hover:bg-black/60 md:p-12"
     >
       <h1 class="text-4xl">Beyond HVAC</h1>
       <h3 class="text-2xl">Comprehensive Building Solutions</h3>
