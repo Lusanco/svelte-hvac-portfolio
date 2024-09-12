@@ -4,21 +4,25 @@
 
 <section class="flex flex-col text-center shadow-2xl lg:text-left">
   <div class="bg-center bg-no-repeat bg-cover bg-slate-200 text-gunmetal">
-    <div class="flex flex-col p-8 px-2 py-4 font-semibold lg:relative md:p-12">
+    <div
+      class="flex flex-col gap-8 p-8 px-2 py-4 font-semibold lg:relative md:p-12"
+    >
       <h1 class="text-4xl">Projects</h1>
-      <br />
-      <p class="text-xl">
+
+      <p class="px-1 text-xl text-justify md:text-center">
         Explore our successful projects in various industries, including
         commercial, industrial, residential, and educational. See how we've
         delivered innovative solutions and exceeded our clients' expectations.
       </p>
-      <br />
-      <a
-        use:link
-        href="/projects"
-        class="flex px-4 py-2 mx-auto text-lg font-semibold transition-all duration-300 rounded-md shadow-md drop-shadow-md lg:absolute bottom-8 right-12 hover:bg-white bg-slate-100 w-fit text-gunmetal"
-        >Our Projects</a
-      >
+
+      <div class="w-full">
+        <a
+          use:link
+          href="/projects"
+          class="flex px-4 py-2 mx-auto text-lg font-semibold transition-all duration-300 rounded-md shadow-md lg:float-right drop-shadow-md hover:bg-white bg-slate-100 w-fit text-gunmetal"
+          >Our Projects</a
+        >
+      </div>
     </div>
   </div>
 </section>
