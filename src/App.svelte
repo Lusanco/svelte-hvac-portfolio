@@ -2,6 +2,9 @@
   // Svelte Routing Library
   import { Router, Route } from "svelte-routing";
 
+  // 828 LLC Articles
+  import articles from "./scripts/articlesContent";
+
   // 828 LLC Layouts
   import Header from "./layouts/Header.svelte";
   import Main from "./layouts/Main.svelte";
@@ -40,6 +43,13 @@
       <Route path="/contact-us" component={Contact} />
       <Route path="/services" component={Services} />
       <Route path="/projects" component={Projects} />
+      {#each articles as article}
+        <Route path={article.blogArticle}>
+          {article.authorName}
+          {article.authorTitle}
+          {article.blogDescription}
+        </Route>
+      {/each}
     </Router>
   </Main>
   <Footer />
