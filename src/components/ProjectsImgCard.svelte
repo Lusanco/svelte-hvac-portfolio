@@ -18,7 +18,7 @@
     autoplay: true,
     interval: 3000,
     rewind: true,
-    arrows: false,
+    arrows: true,
     pagination: false,
     padding: "0%",
     gap: 0,
@@ -44,7 +44,7 @@
 
     <!-- Description -->
     <div
-      class="w-full h-40 p-4 overflow-y-auto text-xl font-semibold text-justify -z-10 text-gunmetal/80 bg-slate-100"
+      class="w-full h-40 p-4 overflow-y-auto text-xl font-semibold text-justify -z-10 text-gunmetal/60 bg-slate-100"
     >
       {project.description}
     </div>

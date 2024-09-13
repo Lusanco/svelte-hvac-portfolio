@@ -20,7 +20,7 @@
       <a
         use:link
         href={article.blogArticle}
-        class="transition-all duration-300 md:hover:scale-125 text-celestialBlue"
+        class="transition-all duration-300 md:hover:scale-110 text-celestialBlue"
         >Read Here</a
       >
     </div>

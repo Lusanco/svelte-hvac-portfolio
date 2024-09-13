@@ -1,6 +1,7 @@
 /* Splide */
 .splide:not(.is-overflow) .splide__arrows {
   display: none;
+  color: #000000;
 }
 
 .splide {
@@ -14,4 +15,11 @@
 
 .custom0 {
   z-index: 0 !important;
+}
+.splide .splide__arrow svg {
+  fill: rgba(27, 155, 212, 80%);
+}
+
+.splide .splide__arrow:hover svg {
+  fill: rgba(27, 155, 212, 100%);
 }

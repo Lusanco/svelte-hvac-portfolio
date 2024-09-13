@@ -4,9 +4,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        celestialBlue: "#3F99CF",
-        lightCyan: "#E0FBFC",
-        gunmetal: "#253237"
+        // celestialBlue: "rgb(27, 155, 212)",
+        celestialBlue: "#1B9BD4",
+        gunmetal: "#253237",
       },
     },
   },

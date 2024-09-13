@@ -17,6 +17,7 @@
   import Services from "./routes/Services.svelte";
   import Education from "./routes/Education.svelte";
   import Projects from "./routes/Projects.svelte";
+  import Article from "./routes/Article.svelte";
 </script>
 
 <!-- Head Tag Imports -->
@@ -45,9 +46,15 @@
       <Route path="/projects" component={Projects} />
       {#each articles as article}
         <Route path={article.blogArticle}>
-          {article.authorName}
-          {article.authorTitle}
-          {article.blogDescription}
+          <Article
+            blogTitle={article.blogTitle}
+            authorName={article.authorName}
+            authorTitle={article.authorTitle}
+            blogSource={article.blogSource}
+            blogSourceName={article.blogSourceName}
+            blogContent={article.blogContent}
+            blogDate={article.blogDate}
+          />
         </Route>
       {/each}
     </Router>

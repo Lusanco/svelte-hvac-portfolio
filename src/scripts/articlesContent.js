@@ -23,6 +23,7 @@ const articles = [
     blogArticle: "/education-un-poco-de-energia-101",
     blogSource:
       "https://www.elvocero.com/opinion/columnas/un-poco-de-energ-a-101/article_44378e2a-daf3-11ec-a7e7-afbcf2e620a7.html",
+    blogSourceName: "El Vocero",
     authorName: "Geraldo Peña Guzmán",
     authorTitle: "Ingeniero",
     authorImg: "",
@@ -48,6 +49,7 @@ const articles = [
     blogArticle: "/education-energia-102",
     blogSource:
       "https://www.elvocero.com/opinion/columnas/energ-a-102/article_88f579b4-6612-11ed-9432-3779c8b5af3f.html",
+    blogSourceName: "El Vocero",
     authorName: "Geraldo Peña Guzmán",
     authorTitle: "Ingeniero",
     authorImg: "",
