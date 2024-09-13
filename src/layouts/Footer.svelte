@@ -21,7 +21,10 @@
     <span
       class="inline-flex justify-center mt-4 sm:ml-auto sm:mt-0 sm:justify-start"
     >
-      <a href="/" class="flex items-center justify-center gap-1 ml-3">
+      <a
+        href="https://www.instagram.com/828llc.pr/"
+        class="flex items-center justify-center gap-1 ml-3"
+      >
         <svg
           fill="none"
           stroke="currentColor"
