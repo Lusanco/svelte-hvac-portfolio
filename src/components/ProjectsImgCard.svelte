@@ -18,7 +18,7 @@
     autoplay: true,
     interval: 3000,
     rewind: true,
-    arrows: true,
+    arrows: false,
     pagination: false,
     padding: "0%",
     gap: 0,
