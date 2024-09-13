@@ -2,7 +2,7 @@
   <!--vv Left/Top Side vv-->
 
   <div
-    class="flex flex-col px-2 py-4 font-semibold transition-all duration-300 md:text-left bg-gunmetal text-lightCyan md:p-12 md:w-1/2"
+    class="flex flex-col px-2 py-4 font-semibold transition-all duration-300 md:text-left bg-gunmetal text-slate-100 md:p-12 md:w-1/2"
   >
     <h1 class="text-4xl text-center md:text-left">Our Mission</h1>
     <br />
