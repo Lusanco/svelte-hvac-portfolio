@@ -6,5 +6,8 @@
   $urlLocation = window.location.pathname;
 </script>
 
+<head>
+  <title>828 LLC - Services</title>
+</head>
 <ServicesSolutions />
 <ServicesContactUs />

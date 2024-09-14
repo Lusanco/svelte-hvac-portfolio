@@ -10,6 +10,10 @@
   export let blogSourceName = "Blog Source Name";
 </script>
 
+<head>
+  <title>828 LLC - {blogTitle}</title>
+</head>
+
 <section
   class="flex flex-col w-full gap-4 p-4 py-16 mx-auto text-xl font-semibold text-center bg-white shadow-lg md:text-left h-fit drop-shadow-lg text-gunmetal/60"
 >

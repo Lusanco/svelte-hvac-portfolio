@@ -9,6 +9,10 @@
   $urlLocation = window.location.pathname;
 </script>
 
+<head>
+  <title>828 LLC - Home</title>
+</head>
+
 <IndexHero />
 <IndexAbout />
 <IndexServices />

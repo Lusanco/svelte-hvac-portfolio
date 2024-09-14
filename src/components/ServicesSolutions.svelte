@@ -1,4 +1,4 @@
-<section class="font-bold text-gunmetal bg-slate-200">
+<section class="font-bold bg-slate-100 text-gunmetal/70">
   <div class="flex flex-col px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
     <div class="max-w-3xl mx-auto text-center">
       <h2 class="text-3xl font-extrabold sm:text-4xl">

@@ -22,8 +22,6 @@
 
 <!-- Head Tag Imports -->
 <head>
-  <title>828 LLC</title>
-
   <!-- Font Awesome -->
   <script
     src="https://kit.fontawesome.com/48f2b60ee4.js"
@@ -31,6 +29,10 @@
   ></script>
 
   <link rel="stylesheet" href="src/styles/styles.css" />
+  <meta
+    name="desription"
+    content="828 LLC is a leading mechanical installation company specializing in HVAC systems. We offer comprehensive engineering services, project execution, and extensive expertise in various air conditioning and ventilation equipment. Committed to exceptional customer service, ethics, and integrity, we provide reliable solutions tailored to meet your specific needs."
+  />
 </head>
 
 <!-- Layouts, Router and Routes -->
