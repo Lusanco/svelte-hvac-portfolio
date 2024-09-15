@@ -1,7 +1,7 @@
 <section class="py-6 font-semibold text-gray-100 bg-gunmetal">
   <div class="container p-4 mx-auto space-y-16 sm:p-10">
     <div class="flex flex-wrap space-y-4">
-      <h3 class="text-3xl font-bold leading-none">President’s message</h3>
+      <h2 class="text-3xl font-bold leading-none">President’s message</h2>
       <blockquote class="flex flex-col gap-4 m-auto text-justify text-gray-400">
         <p>
           “As the founder of 828 LLC, it is my responsibility to always maintain

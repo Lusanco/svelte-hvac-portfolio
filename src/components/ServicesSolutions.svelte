@@ -1,9 +1,9 @@
 <section class="font-bold bg-slate-100 text-gunmetal/70">
   <div class="flex flex-col px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
     <div class="max-w-3xl mx-auto text-center">
-      <h2 class="text-3xl font-extrabold sm:text-4xl">
+      <h1 class="text-4xl font-extrabold sm:text-4xl">
         Comprehensive Mechanical Solutions
-      </h2>
+      </h1>
       <br />
       <p>
         At 828 LLC, we offer a wide range of mechanical services designed to
@@ -16,7 +16,7 @@
       class="flex flex-col w-full gap-4 mx-auto text-center md:text-left justify-evenly md:flex-row"
     >
       <div>
-        <h1 class="text-2xl font-bold">Installation</h1>
+        <h2 class="text-3xl font-bold">Installation</h2>
         <ul class="md:pl-4">
           <li class="md:list-disc">Commercial and Residential Split Units</li>
           <li class="md:list-disc">VRF Systems</li>
@@ -27,7 +27,7 @@
         </ul>
       </div>
       <div>
-        <h1 class="text-2xl font-bold">Maintenance</h1>
+        <h2 class="text-3xl font-bold">Maintenance</h2>
         <ul class="md:pl-4">
           <li class="md:list-disc">Air Conditioning Equipment Repairs</li>
           <li class="md:list-disc">Preventive Maintenance</li>
@@ -35,7 +35,7 @@
         </ul>
       </div>
       <div>
-        <h1 class="text-2xl font-bold">Engineering</h1>
+        <h2 class="text-3xl font-bold">Engineering</h2>
         <ul class="md:pl-4">
           <li class="md:list-disc">Mechanical Consulting</li>
           <li class="md:list-disc">Energy Analysis</li>

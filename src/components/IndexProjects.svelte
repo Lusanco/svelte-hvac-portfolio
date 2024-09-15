@@ -5,7 +5,7 @@
 <section class="flex flex-col text-center shadow-2xl lg:text-left">
   <div class=" bg-slate-200 text-gunmetal">
     <div class="flex flex-col gap-8 p-8 px-2 py-8 font-semibold md:p-12">
-      <h1 class="text-4xl">Projects</h1>
+      <h2 class="text-4xl">Projects</h2>
 
       <p class="px-1 text-xl text-justify md:text-center lg:text-left">
         Explore our successful projects in various industries, including

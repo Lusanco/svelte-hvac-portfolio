@@ -1,4 +1,4 @@
-<div class="font-bold text-slate-600 bg-slate-100">
+<section class="font-bold text-slate-600 bg-slate-100">
   <div class="px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
     <div class="max-w-3xl mx-auto text-center">
       <h2 class="text-3xl font-extrabold sm:text-4xl">Our Values</h2>
@@ -48,4 +48,4 @@
       </div>
     </dl>
   </div>
-</div>
+</section>

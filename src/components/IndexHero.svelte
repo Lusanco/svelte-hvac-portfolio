@@ -13,7 +13,7 @@
       class="flex flex-col px-2 py-12 font-semibold text-center md:text-left bg-black/50 hover:bg-black/60 md:p-12"
     >
       <h1 class="text-4xl">Beyond HVAC</h1>
-      <h3 class="text-2xl">Comprehensive Building Solutions</h3>
+      <h2 class="text-2xl">Comprehensive Building Solutions</h2>
       <br />
       <p class="text-lg text-justify">
         From HVAC to energy optimization, we’ve got you covered. Our team of
@@ -41,9 +41,9 @@
     class="flex flex-col items-center justify-center p-4 md:w-1/3 min-h-40 bg-slate-100"
   >
     <Logo classNames="object-contain w-32 h-32 md:w-48 md:h-48" />
-    <h1 class="text-lg font-bold text-center text-celestialBlue">
+    <p class="text-lg font-bold text-center text-celestialBlue">
       Innovative HVAC Solutions & More!
-    </h1>
+    </p>
   </div>
   <!--^^ Right/Bottom Side ^^-->
 </section>

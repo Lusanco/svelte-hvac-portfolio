@@ -9,7 +9,7 @@
     <div
       class="flex flex-col gap-8 p-8 px-2 py-8 font-semibold bg-black/50 hover:bg-black/60 md:p-12"
     >
-      <h1 class="text-4xl">Services</h1>
+      <h2 class="text-4xl">Services</h2>
 
       <p class="px-1 text-xl text-justify md:text-center lg:text-right">
         Discover our comprehensive range of HVAC and mechanical services,

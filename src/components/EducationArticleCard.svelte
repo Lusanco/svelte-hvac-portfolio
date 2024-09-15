@@ -8,7 +8,7 @@
     class="flex flex-col w-full gap-4 p-4 mx-auto text-xl font-semibold text-center shadow-lg sm:p-8 md:text-left h-fit drop-shadow-lg bg-slate-100 text-gunmetal/60"
   >
     <div>
-      <h1 class="text-2xl font-bold text-celestialBlue">{article.blogTitle}</h1>
+      <h2 class="text-2xl font-bold text-celestialBlue">{article.blogTitle}</h2>
       <h3 class="md:-mt-2 text-gunmetal/50">
         {article.authorName}, {article.authorTitle}
       </h3>

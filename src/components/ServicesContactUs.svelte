@@ -5,7 +5,7 @@
 <section
   class="flex flex-col items-center justify-between w-full gap-4 p-8 m-auto font-semibold text-center md:flex-row bg-celestialBlue text-slate-100"
 >
-  <h1 class="text-xl">Interested in one of our services?</h1>
+  <h2 class="text-xl">Interested in one of our services?</h2>
 
   <a
     use:link

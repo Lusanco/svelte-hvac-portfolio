@@ -43,10 +43,10 @@
     </Splide>
 
     <!-- Description -->
-    <div
+    <p
       class="w-full h-40 p-4 overflow-y-auto text-xl font-semibold text-justify -z-10 text-gunmetal/60 bg-slate-100"
     >
       {project.description}
-    </div>
+    </p>
   </div>
 {/each}

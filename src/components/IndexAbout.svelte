@@ -5,7 +5,7 @@
 <section
   class="flex flex-col gap-8 py-8 font-semibold text-center shadow-2xl md:p-8 bg-gunmetal text-slate-100"
 >
-  <h1 class="text-4xl">About Us</h1>
+  <h2 class="text-4xl">About Us</h2>
 
   <p class="max-w-2xl px-1 mx-auto text-xl text-justify md:text-center">
     Discover how 828 LLC provides innovative HVAC and mechanical solutions
