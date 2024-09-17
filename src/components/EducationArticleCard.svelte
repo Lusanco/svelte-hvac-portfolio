@@ -9,7 +9,7 @@
   >
     <div>
       <h2 class="text-2xl font-bold text-celestialBlue">{article.blogTitle}</h2>
-      <h3 class="md:-mt-2 text-gunmetal/50">
+      <h3 class="text-gunmetal/50">
         {article.authorName}, {article.authorTitle}
       </h3>
     </div>

@@ -6,7 +6,7 @@
   >
     <h2 class="text-4xl text-center md:text-left">Our Mission</h2>
     <br />
-    <p class="text-xl text-justify">
+    <p class="text-xl text-center md:text-justify">
       We provide the world viable, reliable, and profitable technological
       solutions. We create total trust in our clients by inspiring them with our
       knowledge in the field of engineering, with our integrity, and with our
@@ -24,7 +24,7 @@
   >
     <h2 class="text-4xl text-center md:text-right">Our Vision</h2>
     <br />
-    <p class="text-xl text-justify">
+    <p class="text-xl text-center md:text-justify">
       To maintain a culture and organizational structure based on thinking
       differently, on imagination, and on maintaining the highest standard of
       customer service. Provide the tools and develop empowerment in our

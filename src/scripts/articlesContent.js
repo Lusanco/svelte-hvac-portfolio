@@ -3,7 +3,7 @@ const articles = [
     id: 1,
     blogTitle: "Un Poco de Energía 101",
     blogDescription:
-      "¿Cansado de pagar altas facturas de energía y preocupado por el medio ambiente? Este artículo te explica de manera sencilla cómo la energía está presente en todos los aspectos de nuestra vida y cómo podemos tomar el control. Desde consejos prácticos para ahorrar en gasolina hasta la importancia de adoptar energías renovables en nuestros hogares, descubrirás cómo hacer una diferencia en tu bolsillo y en el planeta. ¡Aprende a optimizar tu consumo energético y a vivir de forma más sostenible!",
+      "Este artículo define de manera sencilla el concepto de Energía, cómo está presente en nuestra vida, y cómo podemos adoptar un mejor uso de esta. Desde consejos prácticos para ahorrar en gasolina hasta la importancia de adoptar energías renovables en nuestros hogares, descubrirás cómo hacer una diferencia en tu bolsillo y en el planeta. ¡Aprende a optimizar tu consumo energético y a vivir de forma más sostenible!",
     blogContent: [
       "Decidir el tema de esta columna fue complicado, ya que me considero “celoso” y selectivo cuando quiero educarme o educar.",
       "Luce que el asunto de la energía está muy de moda y existe una considerable cantidad de información y artículos muy completos y competentes. Sin embargo, seguí ponderando opciones hasta que entendí que definitivamente la “ENERGÍA sí está de moda”, porque nos interesa, porque ha sido protagonista en drenar los bolsillos de mi amado Puerto Rico y porque sin ella no podemos vivir.",
@@ -32,7 +32,7 @@ const articles = [
     id: 2,
     blogTitle: "Energía 102",
     blogDescription:
-      "¿Estás pensando en invertir en energía solar para tu hogar o negocio? Este artículo te guía paso a paso para que tomes la mejor decisión. Aprenderás cómo evaluar tu consumo energético actual, seleccionar el sistema solar adecuado y considerar factores como los eventos naturales. Además, descubrirás los beneficios a largo plazo de adoptar energías renovables, tanto para tu bolsillo como para el medio ambiente. ¡Convierte tu hogar en uno más sostenible y autosuficiente!",
+      'Como continuación al artículo titulado Un Poco de Energía 101, este segundo artículo se dirige al tema de inversión en fuentes renovables, específicamente la fotovoltaica. Se brindan "tips" para que tomen la mejor decisión tanto técnica como financiera. Ayudemos al medioambiente y a nuestro bolsillo, mientras convertimos nuestro hogar, negocio, o industria en una más sostenible y autosuficiente.',
     blogContent: [
       "En una pasada columna titulada Un poco de energía 101, definí el concepto de energía de la manera más simple que entendí posible, y expuse algunas sugerencias de ahorro. Ahora, y más con todos los sucesos recientes en Puerto Rico y el mundo, veo prudente sugerir a todos la adopción de otras fuentes de energía. Sé que esto se ha mencionado mucho últimamente, pero en mi opinión, se debe seguir analizando e informando sobre este tema medular.",
       "Si seguimos dependiendo de los combustibles fósiles, seguirá siendo imposible mantener el control de los costos de producción de energía y, por consiguiente, tampoco se podrá ofrecer tarifas competitivas y estables a los consumidores. De igual forma, nuestro ambiente seguirá afectándose a un nivel innecesario y perjudicial.",

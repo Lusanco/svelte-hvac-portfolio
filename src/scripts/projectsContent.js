@@ -27,8 +27,7 @@ const projects = [
   },
   {
     id: 4,
-    description:
-      "TranTrane VRF system installation for classroom facilities.e brand VRF system installation for a high-end residence.",
+    description: "Trane VRF system installation for classroom facilities.",
     images: [
       "/imgs/4/Univ. ceiling VRF cassette.jpg",
       "/imgs/4/Univ. VRF CUs, Pipes, and Elect. view.jpg",

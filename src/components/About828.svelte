@@ -6,7 +6,7 @@
     class="transition-all duration-300 min-h-96 bg-black/50 text-slate-100 hover:bg-black/60"
   >
     <div
-      class="flex flex-col max-w-4xl gap-4 px-4 py-12 m-auto text-xl font-semibold text-justify"
+      class="flex flex-col max-w-4xl gap-4 px-4 py-12 m-auto text-xl font-semibold text-center md:text-justify"
     >
       <h1 class="text-4xl text-center md:text-left">828 LLC</h1>
       <p>
@@ -26,7 +26,7 @@
         communicative and efficient work team with them, which results in viable
         solutions in every sense.
       </p>
-      <p class="text-left">Ethics and integrity are pillars in our company.</p>
+      <p>Ethics and integrity are pillars in our company.</p>
     </div>
   </div>
 </section>

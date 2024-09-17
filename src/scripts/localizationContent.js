@@ -94,3 +94,19 @@ const EN = {
 };
 
 const ES = {};
+
+const userInput = {
+  title: "My Web Page",
+  tag: [
+    { name: "h1", content: "Welcome", attributes: { class: "container" } },
+    { name: "p", content: "This is a paragraph.", attributes: {} },
+    {
+      name: "div",
+      attributes: { class: "container" },
+      content: [
+        { name: "img", attributes: { src: "image.jpg", alt: "Image" } },
+        { name: "p", content: "More content" },
+      ],
+    },
+  ],
+};

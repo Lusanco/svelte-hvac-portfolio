@@ -7,7 +7,7 @@
 >
   <h2 class="text-4xl">About Us</h2>
 
-  <p class="max-w-2xl px-1 mx-auto text-xl text-justify md:text-center">
+  <p class="max-w-2xl px-1 mx-auto text-xl text-center">
     Discover how 828 LLC provides innovative HVAC and mechanical solutions
     tailored to your needs. Learn about our commitment to quality, reliability,
     and customer satisfaction.

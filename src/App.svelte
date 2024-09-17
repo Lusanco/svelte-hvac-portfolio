@@ -31,7 +31,7 @@
   <link rel="stylesheet" href="src/styles/styles.css" />
   <meta
     name="desription"
-    content="828 LLC is a leading mechanical installation company specializing in HVAC systems. We offer comprehensive engineering services, project execution, and extensive expertise in various air conditioning and ventilation equipment. Committed to exceptional customer service, ethics, and integrity, we provide reliable solutions tailored to meet your specific needs."
+    content="Empresa de contratistas mecánicos y servicios de ingeniería especializados en aire acondicionado (HVAC). 939-336-9191 / info@828-llc.com"
   />
 </head>
 

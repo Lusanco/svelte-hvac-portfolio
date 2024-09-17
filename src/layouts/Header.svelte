@@ -1,9 +1,12 @@
 <script>
   import { link } from "svelte-routing";
-  import { urlLocation } from "../scripts/stores";
+  import { urlLocation, language } from "../scripts/stores";
   import Logo from "../components/Logo.svelte";
 
   let urlStyles = " border-b-4 border-celestialBlue ";
+  function toggleLanguage() {
+    language.set(!$language);
+  }
 
   $: {
     console.log($urlLocation);
@@ -146,6 +149,11 @@
       >
         <li>Contact Us</li>
       </a>
+      <div class="flex flex-col items-center justify-center text-xs">
+        <button>English</button>
+        <span>- ó -</span>
+        <button>Español</button>
+      </div>
     </ul>
   </nav>
 </header>
