@@ -1,4 +1,4 @@
-const EN = {
+export const EN = {
   header: {
     aboutUs: "About Us",
     services: "Services",
@@ -104,7 +104,7 @@ const EN = {
   },
 };
 
-const ES = {
+export const ES = {
   header: {
     aboutUs: "Conócenos",
     services: "Servicios",

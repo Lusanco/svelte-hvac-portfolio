@@ -1,5 +1,7 @@
 <script>
   import Logo from "../components/Logo.svelte";
+  import { EN, ES } from "../scripts/localizationContent";
+  import { language } from "../scripts/stores";
 </script>
 
 <footer class="text-gunmetal/80 bg-slate-100">
@@ -16,7 +18,7 @@
     <p
       class="mt-4 text-sm text-center md:text-left sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gunmetal/20 sm:py-2 sm:mt-0"
     >
-      Copyright © 2024 828 LLC. All rights reserved.
+      {$language ? EN.footer.p : ES.footer.p}
     </p>
     <span
       class="inline-flex justify-center mt-4 sm:ml-auto sm:mt-0 sm:justify-start"

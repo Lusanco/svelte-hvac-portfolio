@@ -1,5 +1,7 @@
 <script>
   import { link } from "svelte-routing";
+  import { EN, ES } from "../scripts/localizationContent";
+  import { language } from "../scripts/stores";
 </script>
 
 <section class="flex flex-col text-center shadow-2xl lg:text-left">

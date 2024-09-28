@@ -2,12 +2,14 @@
   import { link } from "svelte-routing";
   import { urlLocation, language } from "../scripts/stores";
   import Logo from "../components/Logo.svelte";
+  import { EN, ES } from "../scripts/localizationContent";
 
-  let urlStyles = " border-b-4 border-celestialBlue ";
   function toggleLanguage() {
-    language.set(!$language);
+    language.update((value) => !value);
+    console.log("Language Updated"); // Toggle between true/false
   }
 
+  let urlStyles = " border-b-4 border-celestialBlue ";
   $: {
     console.log($urlLocation);
   }
@@ -79,35 +81,35 @@
         <li
           class="w-full p-4 transition-all duration-300 border-b-2 hover:bg-celestialBlue hover:text-slate-100"
         >
-          About Us
+          {$language ? EN.header.aboutUs : ES.header.aboutUs}
         </li>
       </a>
       <a use:link href="/services" on:click={closeMenuOnClick}>
         <li
           class="w-full p-4 transition-all duration-300 border-b-2 hover:bg-celestialBlue hover:text-slate-100"
         >
-          Services
+          {$language ? EN.header.services : ES.header.services}
         </li>
       </a>
       <a use:link href="/projects" on:click={closeMenuOnClick}>
         <li
           class="w-full p-4 transition-all duration-300 border-b-2 hover:bg-celestialBlue hover:text-slate-100"
         >
-          Projects
+          {$language ? EN.header.projects : ES.header.projects}
         </li>
       </a>
       <a use:link href="/education" on:click={closeMenuOnClick}>
         <li
           class="w-full p-4 transition-all duration-300 border-b-2 hover:bg-celestialBlue hover:text-slate-100"
         >
-          Education
+          {$language ? EN.header.education : ES.header.education}
         </li>
       </a>
       <a use:link href="/contact-us" on:click={closeMenuOnClick}>
         <li
           class="w-full p-4 transition-all duration-300 border-b-2 hover:text-slate-100"
         >
-          Contact Us
+          {$language ? EN.header.contactUs : ES.header.contactUs}
         </li>
       </a>
     </ul>
@@ -119,40 +121,40 @@
         href="/about-us"
         class={`transition-all duration-150 hover:border-celestialBlue hover:border-b-4  ${$urlLocation === "/about-us" ? urlStyles : "border-transparent"}`}
       >
-        <li>About Us</li>
+        <li>{$language ? EN.header.aboutUs : ES.header.aboutUs}</li>
       </a>
       <a
         use:link
         href="/services"
         class={`transition-all duration-150 hover:border-celestialBlue hover:border-b-4  ${$urlLocation === "/services" ? urlStyles : "border-transparent"}`}
       >
-        <li>Services</li>
+        <li>{$language ? EN.header.services : ES.header.services}</li>
       </a>
       <a
         use:link
         href="/projects"
         class={`transition-all duration-150 hover:border-celestialBlue hover:border-b-4  ${$urlLocation === "/projects" ? urlStyles : "border-transparent"}`}
       >
-        <li>Projects</li>
+        <li>{$language ? EN.header.projects : ES.header.projects}</li>
       </a>
       <a
         use:link
         href="/education"
         class={`transition-all duration-150 hover:border-celestialBlue hover:border-b-4  ${$urlLocation === "/education" ? urlStyles : "border-transparent"}`}
       >
-        <li>Education</li>
+        <li>{$language ? EN.header.education : ES.header.education}</li>
       </a>
       <a
         use:link
         href="/contact-us"
         class={`transition-all duration-150 hover:border-celestialBlue hover:border-b-4  ${$urlLocation === "/contact-us" ? urlStyles : "border-transparent"}`}
       >
-        <li>Contact Us</li>
+        <li>{$language ? EN.header.contactUs : ES.header.contactUs}</li>
       </a>
       <div class="flex flex-col items-center justify-center text-xs">
-        <button>English</button>
+        <button on:click={toggleLanguage}>English</button>
         <span>- ó -</span>
-        <button>Español</button>
+        <button on:click={toggleLanguage}>Español</button>
       </div>
     </ul>
   </nav>

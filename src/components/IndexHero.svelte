@@ -2,6 +2,8 @@
 <script>
   import { link } from "svelte-routing";
   import Logo from "./Logo.svelte";
+  import { EN, ES } from "../scripts/localizationContent";
+  import { language } from "../scripts/stores";
 </script>
 
 <section class="flex flex-col shadow-2xl md:flex-row overflow-clip">
@@ -12,17 +14,11 @@
     <div
       class="flex flex-col px-2 py-12 font-semibold text-center md:text-left bg-black/50 hover:bg-black/60 md:p-12"
     >
-      <h1 class="text-4xl">Beyond HVAC</h1>
-      <h2 class="text-2xl">Comprehensive Building Solutions</h2>
+      <h1 class="text-4xl">{$language ? EN.indexHero.h1 : ES.indexHero.h1}</h1>
+      <h2 class="text-2xl">{$language ? EN.indexHero.h2 : ES.indexHero.h2}</h2>
       <br />
       <p class="text-lg text-center md:text-justify">
-        From HVAC to energy optimization, we can help. Our team of experienced
-        professionals offers comprehensive solutions tailored to the specific
-        needs of your building or facility in general. We specialize in heating,
-        ventilation, air conditioning systems, energy audits, and building
-        automation, ensuring efficiency and comfort. With a focus on quality,
-        reliability, and customer satisfaction, we are committed to delivering
-        exceptional results.
+        {$language ? EN.indexHero.p1 : ES.indexHero.p1}
       </p>
       <br />
       <a
@@ -30,7 +26,7 @@
         href="/contact-us"
         class="p-4 font-semibold text-center transition-all duration-300 rounded-md shadow-md drop-shadow-md hover:bg-celestialBlue/90 bg-celestialBlue text-slate-100"
       >
-        Contact Us
+        {$language ? EN.indexHero.a : ES.indexHero.a}
       </a>
     </div>
   </div>

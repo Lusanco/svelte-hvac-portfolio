@@ -1,14 +1,17 @@
+<script>
+  import { EN, ES } from "../scripts/localizationContent";
+  import { language } from "../scripts/stores";
+</script>
+
 <section class="font-bold bg-slate-100 text-gunmetal/70">
   <div class="flex flex-col px-4 py-16 mx-auto max-w-7xl sm:px-6 lg:px-8">
     <div class="max-w-3xl mx-auto text-center">
       <h1 class="text-4xl font-extrabold sm:text-4xl">
-        Comprehensive Mechanical Solutions
+        {$language ? EN.servicesSolutions.h1 : ES.servicesSolutions.h1}
       </h1>
       <br />
       <p>
-        At 828 LLC, we offer a wide range of mechanical services designed to
-        optimize your comfort and energy efficiency. From HVAC installations to
-        preventive maintenance, our experts handle it all.
+        {$language ? EN.servicesSolutions.p : ES.servicesSolutions.p}
       </p>
     </div>
     <br />
@@ -16,30 +19,60 @@
       class="flex flex-col w-full gap-4 mx-auto text-center md:text-left justify-evenly md:flex-row"
     >
       <div>
-        <h2 class="text-3xl font-bold">Installation</h2>
+        <h2 class="text-3xl font-bold">
+          {$language ? EN.servicesSolutions.h2a : ES.servicesSolutions.h2a}
+        </h2>
         <ul class="md:pl-4">
-          <li class="md:list-disc">Commercial and Residential Split Units</li>
-          <li class="md:list-disc">VRF Systems</li>
-          <li class="md:list-disc">Packaged Units</li>
-          <li class="md:list-disc">Chillers</li>
-          <li class="md:list-disc">Refrigeration and Chilled Water Piping</li>
-          <li class="md:list-disc">Air Duct Systems</li>
+          <li class="md:list-disc">
+            {$language ? EN.servicesSolutions.li1 : ES.servicesSolutions.li1}
+          </li>
+          <li class="md:list-disc">
+            {$language ? EN.servicesSolutions.li2 : ES.servicesSolutions.li2}
+          </li>
+          <li class="md:list-disc">
+            {$language ? EN.servicesSolutions.li3 : ES.servicesSolutions.li3}
+          </li>
+          <li class="md:list-disc">
+            {$language ? EN.servicesSolutions.li4 : ES.servicesSolutions.li4}
+          </li>
+          <li class="md:list-disc">
+            {$language ? EN.servicesSolutions.li5 : ES.servicesSolutions.li5}
+          </li>
+          <li class="md:list-disc">
+            {$language ? EN.servicesSolutions.li6 : ES.servicesSolutions.li6}
+          </li>
         </ul>
       </div>
       <div>
-        <h2 class="text-3xl font-bold">Maintenance</h2>
+        <h2 class="text-3xl font-bold">
+          {$language ? EN.servicesSolutions.h2b : ES.servicesSolutions.h2b}
+        </h2>
         <ul class="md:pl-4">
-          <li class="md:list-disc">Air Conditioning Equipment Repairs</li>
-          <li class="md:list-disc">Preventive Maintenance</li>
-          <li class="md:list-disc">General System Evaluations</li>
+          <li class="md:list-disc">
+            {$language ? EN.servicesSolutions.li7 : ES.servicesSolutions.li7}
+          </li>
+          <li class="md:list-disc">
+            {$language ? EN.servicesSolutions.li8 : ES.servicesSolutions.li8}
+          </li>
+          <li class="md:list-disc">
+            {$language ? EN.servicesSolutions.li9 : ES.servicesSolutions.li9}
+          </li>
         </ul>
       </div>
       <div>
-        <h2 class="text-3xl font-bold">Engineering</h2>
+        <h2 class="text-3xl font-bold">
+          {$language ? EN.servicesSolutions.h2b : ES.servicesSolutions.h2b}
+        </h2>
         <ul class="md:pl-4">
-          <li class="md:list-disc">Mechanical Consulting</li>
-          <li class="md:list-disc">Energy Analysis</li>
-          <li class="md:list-disc">Project Reports</li>
+          <li class="md:list-disc">
+            {$language ? EN.servicesSolutions.li10 : ES.servicesSolutions.li10}
+          </li>
+          <li class="md:list-disc">
+            {$language ? EN.servicesSolutions.li11 : ES.servicesSolutions.li11}
+          </li>
+          <li class="md:list-disc">
+            {$language ? EN.servicesSolutions.li12 : ES.servicesSolutions.li12}
+          </li>
         </ul>
       </div>
     </div>

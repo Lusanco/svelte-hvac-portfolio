@@ -1,4 +1,64 @@
-const articlesES = [
+export const articlesEN = [
+  {
+    id: 1,
+    blogTitle: "A Small Amount of Energy 101",
+    blogDescription:
+      "In a simple way, this article defines the concept of Energy, how it is present in our lives, and how we can adopt a better use of it. From practical tips to save on gasoline, to the importance of adopting renewable energies in our homes, you will discover how to make a difference in your pocket and on the planet. Learn to optimize your energy consumption and live more sustainably!",
+    blogContent: [
+      "Deciding on the topic of this column was complicated, since I consider myself cautious and selective when I want to educate myself or others.",
+      "It looks that the issue of energy is a fashion these days and there is a considerable amount of information and very complete and competent articles. However, I continued to analyze many things until I understood that “ENERGY is definitely fashionable,” because it matters to us, because it has been the protagonist in draining the pockets of my beloved Puerto Rico, and because without it, we simply cannot live.",
+      "By transforming it, we affect ourselves positively or negatively and, in the same way, our great Planet Earth. So, let's define energy in a simple way and not suitable for didactics on the subject, as the capacity of matter to do work or to make something change, whether through movement, chemical reaction, temperature, etc.",
+      "At just 12 years old, when I was in the seventh grade, I decided that I wanted to be an engineer. I remember like today when at a science fair at my René Marqués School in Carolina, I brought around 10 scale cars, all from my collection that I still keep. I presented different aspects of body design and explained how that influenced the aerodynamics of the cars and, consequently, the consumption of gasoline. Obviously, at my academic level at that time, and perhaps with some “blunders” that the judges did not want to disclose, I remember feeling proud of my participation, and I learned a lot with the project.",
+      "About six years later, as a freshman student at the Mayagüez Campus of the University of Puerto Rico, I remember that a professor told me: “Energy is neither created nor destroyed, it is only transformed.” Probably, you who are reading me have also heard this and, although confusing, it is true. But since I do not intend to bore you with thermodynamic principles, let's add some meat to this writing.",
+      "When you fill up the gas tank in your car, apart from remembering the “cruditas taxes” in PR, you also remember how to reinvent yourself to make it last longer. To mention just a few, between that tank, the engine, the transmission, and the tires, there is a transformation of energy into different types, which has the purpose of moving your car, and you. This transformation uses many electrical and mechanical elements.",
+      "Gasoline is a fossil fuel that is originated from petroleum. And fossil fuel is one formed naturally many years ago, from organic compounds such as animals and plants. Since these cannot be replaced quickly, they are classified as non-renewable. Likewise, when used and burned, in most cases, they negatively affect our environment.",
+      "In line with these approaches, I then move on to some points that I consider practical and pertinent:",
+      "1. Educate yourself based on your scenario, for example, on transportation. Let's assume that you drive your car an average of 250 miles per week and that it has a rating of 17 MPG (miles per gallon of gasoline). If you can change your car for one that rates at 25 MPG, and assuming a gasoline cost of $1/liter, which is equivalent to $3.78/gallon, you would be saving around $80 per month. Similarly, you can evaluate an electric or hybrid car. I recognize that the costs are still not so accessible for a large part of Puerto Ricans, but they bring many benefits in recurring expenses and in our environmental surroundings.",
+      "2. Evaluate photovoltaic system options in your residence or business. As with electric car technology, this is not yet accessible to many citizens, but there are already different alternatives that, guided by a professional in the field, both in engineering and finance, could be viable for many.",
+      '3. Simplify what I define as "energy habits”. It is not only about starting to “change” equipment, cars, technologies, but also starting to develop a better environmental awareness and energy behavior. Just turning off a light, having several people in the same vehicle, or turning ON just one air conditioner when enjoying a good movie with the family, translates into preserving life in the short, medium, and long term, and, in the same way, helps your wallet.',
+      "4. Plant a tree, walk, recycle, reuse, compost, open windows, think about how to help the environment every day, and implement it. I am grateful for the philosophy of Maria Montessori, which you might think has nothing to do with energy, but believe me, it is directly related.",
+      "I dedicate this, my first article, to Morocho and Margot. Morocho told me something that I have never forgotten: “Knowledge is never a waste.” I believe a lot in education and that is why I urge you to continue educating yourselves on this subject. It is very relevant at this time; and every person, at any level, can educate themselves for the better.",
+    ],
+    blogDate: "May 24, 2022",
+    blogArticle: "/education-un-poco-de-energia-101",
+    blogSource:
+      "https://www.elvocero.com/opinion/columnas/un-poco-de-energ-a-101/article_44378e2a-daf3-11ec-a7e7-afbcf2e620a7.html",
+    blogSourceName: "El Vocero",
+    authorName: "Geraldo Peña Guzmán",
+    authorTitle: "Ingeniero",
+    authorImg: "",
+    readHere: "Lea Aquí",
+  },
+  {
+    id: 2,
+    blogTitle: "Energía 102",
+    blogDescription:
+      'Como continuación al artículo titulado Un Poco de Energía 101, este segundo artículo se dirige al tema de inversión en fuentes renovables, específicamente la fotovoltaica. Se brindan "tips" para que tomen la mejor decisión tanto técnica como financiera. Ayudemos al medioambiente y a nuestro bolsillo, mientras convertimos nuestro hogar, negocio, o industria, en una más sostenible y autosuficiente.',
+    blogContent: [
+      "En una pasada columna titulada Un poco de energía 101, definí el concepto de energía de la manera más simple que entendí posible, y expuse algunas sugerencias de ahorro. Ahora, y más con todos los sucesos recientes en Puerto Rico y el mundo, veo prudente sugerir a todos la adopción de otras fuentes de energía. Sé que esto se ha mencionado mucho últimamente, pero en mi opinión, se debe seguir analizando e informando sobre este tema medular.",
+      "Si seguimos dependiendo de los combustibles fósiles, seguirá siendo imposible mantener el control de los costos de producción de energía y, por consiguiente, tampoco se podrá ofrecer tarifas competitivas y estables a los consumidores. De igual forma, nuestro ambiente seguirá afectándose a un nivel innecesario y perjudicial.",
+      "Reconozco que, en la mayoría de los casos, si evaluamos la inversión de estas tecnologías renovables únicamente con la lupa financiera, no siempre son costo efectivas. Pero, cuando ampliamos nuestra mira hacia otros aspectos, comprendemos que se trata de un tipo de inversión rentable, recomendable y necesaria.",
+      "Por eso, con un poco de arroz, habichuelas, y carne guisada, aquí unas recomendaciones para cuando usted comience a evaluar posibilidades de inversión en energía renovable para su residencia o negocio, principalmente del tipo fotovoltaica:",
+      "1. Haga un análisis de su estilo de vida en el uso de energía. ¿Qué puede apagar? ¿Qué equipo puede utilizar con menos frecuencia? ¿Qué equipo puede utilizar de manera más eficiente? Por ejemplo, aquí en el trópico, el solo incrementar 2 grados Fahrenheit la temperatura deseada en su acondicionador de aire, puede reflejar una reducción considerable en el consumo energético.",
+      "2. Reduzca su consumo. Se entiende que aún existen altos costos en los sistemas renovables. Por tanto, primero se recomienda invertir en equipos más eficientes y luego diseñar y seleccionar el tamaño idóneo del sistema. Algunos ejemplos son: cambiar el calentador de agua eléctrico y de tanque por uno solar o de línea; instalar acondicionadores de aire más eficientes o con tecnología “inverter”; cambiar bombillas incandescentes o fluorescentes por bombillas tipo “LED”; aislar techos o paredes; cambiar algunos enseres por unos de mayor eficiencia, entre otras iniciativas. Mayormente, para el caso de edificios comerciales o industriales, también recomiendo integrar sistemas de controladores automatizados. Quizás no es necesario que adopte todas las sugerencias de reducción de consumo, sino que evalúe cuáles de estas le serían viables, e implementarlas. Tomar una o dos, redundará en beneficio económico a la hora de seleccionar su sistema renovable.",
+      "3. Mida su consumo real actual. Aparte de las lecturas o estimados que pueden observar en su factura eléctrica, pudiesen también medir su consumo utilizando otros tipos de medidores locales. Investigue esta tarea con un ingeniero, perito electricista, o con la empresa de su preferencia, con quien estaría evaluando la instalación de su sistema. Si es posible, hágalo en diferentes momentos del año y estudie los datos de todos los meses anteriores, utilizando sus facturas eléctricas. Se preguntarán el porqué de todos modos sugiero medir el consumo, si ya este debe mostrarse en la factura. Pero, al menos aquí en Puerto Rico, he visto muchos casos donde el tener esa segunda confirmación es definitivamente recomendable.",
+      "4. Piense y evalúe sus condiciones actuales o futuras. Por ejemplo, hay hijos que se mudan de la casa de sus padres y, en muchas ocasiones, esto podemos conocerlo de antemano. El tener una persona menos en el hogar, probablemente redunde en menor consumo energético. O, por el contrario, hay casos donde la familia crecerá, donde se desea ampliar la casa o construirle una piscina. Con esta información a la mano, podríamos contemplar ese estatus futuro de consumo. Todo se calcula y se puede estimar, y su profesional seleccionado debe saber cómo hacerlo.",
+      "5. Evalúe los embates de huracanes y otros tipos de eventos naturales. Debe decidir cuáles son sus prioridades. Aquí algunas preguntas que debe hacerse: ¿quiere la casa o negocio completamente encendido, o puede energizar solo las cargas que necesita como prioridad?, ¿cuál es su presupuesto?, ¿cuánto tiempo puede operar solo con baterías, asumiendo luz solar nula o muy poca?, entre algunas otras que se pueden plantear junto con su profesional seleccionado. Debido al huracán Fiona, muchos consumidores experimentaron problemas con sus sistemas solares, ya que prácticamente no recibimos sol considerable por alrededor de dos días. De igual forma, hubo muchos problemas con sistemas que quedaron sin almacenamiento de energía, y luego no podían encenderse automáticamente con la luz solar, sino que requerían de un proceso manual que solo conocían los expertos. Debe preguntar todo esto, y cuestionar los posibles escenarios y medidas para limitar dichos problemas.",
+      "Pero de serle posible, y aquí sabemos que entran temas económicos y geográficos que se deben evaluar, por mencionar algunos, sea parte de la transformación energética que necesita su hogar, su negocio, y el País. Sus pasos firmes y efectivos en estos temas, redundarán en beneficio individual y colectivo tanto local como mundial. El planeta tiene una necesidad imperiosa de adoptar mejores tecnologías de producción, manejo, y uso de energía. Voy a usted…",
+    ],
+    blogDate: "Noviembre 17, 2022",
+    blogArticle: "/education-energia-102",
+    blogSource:
+      "https://www.elvocero.com/opinion/columnas/energ-a-102/article_88f579b4-6612-11ed-9432-3779c8b5af3f.html",
+    blogSourceName: "El Vocero",
+    authorName: "Geraldo Peña Guzmán",
+    authorTitle: "Ingeniero",
+    authorImg: "",
+    readHere: "Lea Aquí",
+  },
+];
+
+export const articlesES = [
   {
     id: 1,
     blogTitle: "Un Poco de Energía 101",
@@ -57,5 +117,3 @@ const articlesES = [
     readHere: "Lea Aquí",
   },
 ];
-
-export default articlesES;
