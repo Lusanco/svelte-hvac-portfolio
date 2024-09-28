@@ -16,13 +16,13 @@
       <h2 class="text-2xl">Comprehensive Building Solutions</h2>
       <br />
       <p class="text-lg text-center md:text-justify">
-        From HVAC to energy optimization, we’ve got you covered. Our team of
-        experienced professionals offers comprehensive solutions tailored to
-        your building’s specific needs. We specialize in HVAC systems, energy
-        audits, and building automation, ensuring optimal efficiency and
-        comfort. With a focus on quality, reliability, and customer
-        satisfaction, we’re committed to delivering exceptional results for your
-        building.
+        From HVAC to energy optimization, we can help. Our team of experienced
+        professionals offers comprehensive solutions tailored to the specific
+        needs of your building or facility in general. We specialize in heating,
+        ventilation, air conditioning systems, energy audits, and building
+        automation, ensuring efficiency and comfort. With a focus on quality,
+        reliability, and customer satisfaction, we are committed to delivering
+        exceptional results.
       </p>
       <br />
       <a

@@ -13,7 +13,7 @@
         <i class="text-2xl fa-solid fa-phone"></i>
       </div>
       <div class="flex flex-col w-full m-auto">
-        <h1>Call Us</h1>
+        <h2>Call Us</h2>
         <p class="text-sm text-slate-100/60">+1-939-336-9191</p>
       </div>
     </a>
@@ -26,7 +26,7 @@
         <i class="text-2xl fa-solid fa-envelope"></i>
       </div>
       <div class="flex flex-col w-full m-auto">
-        <h1>Email Us</h1>
+        <h2>Email Us</h2>
         <p class="text-sm text-slate-100/60">info@828-llc.com</p>
       </div>
     </a>
@@ -38,7 +38,7 @@
         <i class="text-2xl fa-brands fa-square-instagram"></i>
       </div>
       <div class="flex flex-col w-full m-auto">
-        <h1>Follow Us</h1>
+        <h2>Follow Us</h2>
         <p class="text-sm text-slate-100/60">www.instagram.com/828llc.pr/</p>
       </div>
     </a>

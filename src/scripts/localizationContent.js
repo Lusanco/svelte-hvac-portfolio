@@ -9,9 +9,8 @@ const EN = {
   indexHero: {
     h1: "Beyond HVAC",
     h2: "Comprehensive Building Solutions",
-    p1: "From HVAC to energy optimization, we’ve got you covered. Our team of experienced professionals offers comprehensive solutions tailored to your building’s specific needs. We specialize in HVAC systems, energy audits, and building automation, ensuring optimal efficiency and comfort. With a focus on quality, reliability, and customer satisfaction, we’re committed to delivering exceptional results for your building.",
+    p1: "From HVAC to energy optimization, we can help. Our team of experienced professionals offers comprehensive solutions tailored to the specific needs of your building or facility in general. We specialize in heating, ventilation, air conditioning systems, energy audits, and building automation, ensuring efficiency and comfort. With a focus on quality, reliability, and customer satisfaction, we are committed to delivering exceptional results.",
     a: "Contact Us",
-    p2: "Innovative HVAC Solutions & More!",
   },
   indexAbout: {
     h2: "About Us",
@@ -25,7 +24,7 @@ const EN = {
   },
   indexProjects: {
     h2: "Projects",
-    p: "Explore our successful projects in various industries, including commercial, industrial, residential, and educational. See how we've delivered innovative solutions and exceeded our clients' expectations.",
+    p: "See how we've delivered innovative solutions exploring our successful projects in various industries, including commercial, industrial, residential, and educational.",
     a: "Our Projects",
   },
   about828: {
@@ -35,11 +34,11 @@ const EN = {
     p3: "Ethics and integrity are pillars in our company.",
   },
   aboutMission: {
-    h2: "Our Mission",
+    h2: "Mission",
     p: "We provide the world viable, reliable, and profitable technological solutions. We create total trust in our clients by inspiring them with our knowledge in the field of engineering, with our integrity, and with our intention to form a winning team with them.",
   },
   aboutVision: {
-    h2: "Our Vision",
+    h2: "Vision",
     p: "To maintain a culture and organizational structure based on thinking differently, on imagination, and on maintaining the highest standard of customer service. Provide the tools and develop empowerment in our employees, who will organically transmit the same culture to our clients.",
   },
   aboutValues: {
@@ -91,22 +90,122 @@ const EN = {
   educationArticles: {
     h1: "Educational Articles",
   },
+  contact828: {
+    h1: "Contact Us",
+    h2a: "Call Us",
+    p1: "+1-939-336-9191",
+    h2b: "Email Us",
+    p2: "info@828-llc.com",
+    h2c: "Follow Us",
+    p3: "https://www.instagram.com/828llc.pr/",
+  },
+  footer: {
+    p: "Copyright © 2024 828 LLC. All rights reserved.",
+  },
 };
 
-const ES = {};
-
-const userInput = {
-  title: "My Web Page",
-  tag: [
-    { name: "h1", content: "Welcome", attributes: { class: "container" } },
-    { name: "p", content: "This is a paragraph.", attributes: {} },
-    {
-      name: "div",
-      attributes: { class: "container" },
-      content: [
-        { name: "img", attributes: { src: "image.jpg", alt: "Image" } },
-        { name: "p", content: "More content" },
-      ],
-    },
-  ],
+const ES = {
+  header: {
+    aboutUs: "Conócenos",
+    services: "Servicios",
+    projects: "Proyectos",
+    education: "Artículos Educativos",
+    contactUs: "Contáctanos",
+  },
+  indexHero: {
+    h1: "Más allá de la climatización",
+    h2: "Soluciones integrales para tu proyecto de HVAC",
+    p1: "Desde HVAC hasta optimización energética, podemos ayudarte. Nuestro equipo de profesionales experimentados ofrece soluciones integrales adaptadas a las necesidades específicas de su edificio o facilidad en general. Nos especializamos en sistemas de calefacción, ventilación, aire acondicionado, auditorías energéticas, y automatización de edificios, lo que garantiza eficiencia y confort. Con un enfoque en la calidad, la confiabilidad y la satisfacción del cliente, estamos comprometidos en brindar resultados excepcionales.",
+    a: "Contáctanos",
+  },
+  indexAbout: {
+    h2: "Conócenos",
+    p: "Descubra cómo 828 LLC le ofrece soluciones mecánicas y de climatización innovadoras y adaptadas a sus necesidades. Conozca nuestro compromiso con la calidad, la confiabilidad y la satisfacción del cliente.",
+    a: "Ver Más",
+  },
+  indexServices: {
+    h2: "Servicios",
+    p: "Descubra nuestra amplia gama de servicios mecánicos y de climatización, los cuales incluyen instalación, mantenimiento, eficiencia energética, y soluciones personalizadas.",
+    a: "Nuestros Servicios",
+  },
+  indexProjects: {
+    h2: "Proyectos",
+    p: "Explore algunos de nuestros proyectos exitosos en diversas industrias, incluidas la comercial, industrial, residencial, y educativa.",
+    a: "Nuestros Proyectos",
+  },
+  about828: {
+    h1: "Conócenos",
+    p1: "828 LLC es una empresa dedicada a las instalaciones mecánicas, en su mayoría relacionadas con el campo de HVAC (Heating, Ventilation & Air Conditioning – por sus siglas en inglés). Ofrecemos servicios de ingeniería relacionados con este campo y con el de la Energía. Trabajamos en la instalación y ejecución general de proyectos, y tenemos amplios conocimientos en básicamente todo tipo de equipos de aire acondicionado y ventilación. Con esto nos referimos a Chillers, VRF, Unidades Tipo Paquetes, Splits Comerciales y Residenciales, Distribución de Aire, Controles Automatizados, entre otros.",
+    p2: "El servicio al cliente es clave para nuestras operaciones, y creemos en mantener siempre el más alto nivel en ello. Escuchamos a nuestro cliente y nos interesa genuinamente conocer sus requerimientos. Es así como creamos un equipo de trabajo comunicativo y eficiente con ellos, lo que redunda en soluciones viables en todo sentido.",
+    p3: "La ética y la integridad son pilares en nuestra empresa.",
+  },
+  aboutMission: {
+    h2: "Misión",
+    p: "Aportamos al mundo soluciones tecnológicas viables, confiables, y rentables. Creamos confianza total en nuestros clientes al inspirarlos con nuestro conocimiento en el campo de la ingeniería, con nuestra integridad, y con nuestra intención de formar un equipo ganador junto a ellos.",
+  },
+  aboutVision: {
+    h2: "Visión",
+    p: "Mantener una cultura y estructura organizacional basada en el pensar diferente, en la imaginación, y en mantener el más alto estándar de servicio al cliente. Proveer las herramientas y desarrollar empoderamiento en nuestros empleados, quienes orgánicamente transmitirán la misma cultura a nuestros clientes.",
+  },
+  aboutValues: {
+    h2: "Valores",
+    dt1: "Integridad",
+    dd1: "que lleva a confianza total.",
+    dt2: "Empatía",
+    dd2: "que entiende y respeta.",
+    dt3: "Innovación",
+    dd3: "que adelanta y transforma.",
+    dt4: "Eficiencia",
+    dd4: "que hace rentable el esfuerzo.",
+    dt5: "Sostenibilidad",
+    dd5: "que garantiza el presente y el futuro.",
+    dt6: "Responsabilidad Social",
+    dd6: "que abarca todo.",
+  },
+  aboutPresident: {
+    h2: "Mensaje del Presidente",
+    p1: "“Como fundador de 828 LLC, es siempre mi responsabilidad el mantener el ambiente de integridad de la empresa, combinado con los más altos estándares de calidad, eficiencia, confiabilidad y servicio al cliente. El aspecto técnico, el conocimiento en lo que hacemos, obviamente es muy importante para poder brindar nuestros servicios. Pero creemos que deben combinarse con el mejor servicio al cliente posible. Somos “freaks” del servicio al cliente, y estamos totalmente convencidos de que, sin él, tanto nuestra empresa como las relaciones con nuestros clientes no se sostendrían a largo plazo. Estamos comprometidos a brindar el mejor conocimiento técnico posible y la implementación de ese conocimiento en HVAC, en ingeniería, y en proyectos en general. Eso nos lleva a la confianza total de nuestros clientes. Somos un equipo, y cada aspecto de nuestro negocio se maneja con eso en mente. Si ha probado nuestros servicios, espero que haya tenido la mejor experiencia. Y si no, por favor, denos la oportunidad de hacer lo que hacemos. ¡Adelante siempre, a trabajar!”",
+    p2: "Ing. Geraldo Peña Guzmán, PE, MEM",
+  },
+  servicesSolutions: {
+    h1: "Soluciones Mecánicas Integrales",
+    p: "En 828 LLC, ofrecemos una amplia gama de servicios mecánicos diseñados para optimizar su comodidad y eficiencia energética. Desde instalaciones de HVAC hasta mantenimiento preventivo, nuestros expertos se encargan de todo.",
+    h2a: "Instalación",
+    li1: "Equipos splits comerciales y residenciales",
+    li2: "Sistemas VRF",
+    li3: "Paquetes",
+    li4: "Chillers",
+    li5: "Tuberías de refrigeración y de agua helada",
+    li6: "Sistemas de ductos de aire ",
+    h2b: "Mantenimiento",
+    li7: "Reparaciones de equipos de aire acondicionado",
+    li8: "Mantenimiento preventivo",
+    li9: "Evaluación general de sistemas de A/C",
+    h2c: "Ingeniería",
+    li10: "Consultoría Mecánica",
+    li11: "Análisis Energético",
+    li12: "Reportes de proyectos",
+  },
+  servicesContactUs: {
+    h2: "¿Interesado en alguno de nuestros servicios?",
+    a: "Contáctanos",
+  },
+  projectsGallery: {
+    h1: "Proyectos",
+  },
+  educationArticles: {
+    h1: "Artículos Educativos",
+  },
+  contact828: {
+    h1: "Contáctanos",
+    h2a: "Llámenos",
+    p1: "+1-939-336-9191",
+    h2b: "Correo Electrónico",
+    p2: "info@828-llc.com",
+    h2c: "Síganos",
+    p3: "https://www.instagram.com/828llc.pr/",
+  },
+  footer: {
+    p: "Derechos de Autor © 2024 828 LLC. Todos los derechos reservados.",
+  },
 };

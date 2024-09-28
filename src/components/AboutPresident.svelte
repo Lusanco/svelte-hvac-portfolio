@@ -3,7 +3,7 @@
     <div class="flex flex-wrap space-y-4">
       <h2 class="text-3xl font-bold leading-none">President’s message</h2>
       <blockquote class="flex flex-col gap-4 m-auto text-justify text-gray-400">
-        <p>
+        <p class="indent-8">
           “As the founder of 828 LLC, it is my responsibility to always maintain
           the integrity environment of the company, combined with the highest
           standards of quality, efficiency, reliability, and customer service.

@@ -1,9 +1,9 @@
 <script>
   import { link } from "svelte-routing";
-  import articles from "../scripts/articlesContent";
+  import articlesES from "../scripts/articlesContent";
 </script>
 
-{#each articles as article}
+{#each articlesES as article}
   <div
     class="flex flex-col w-full gap-4 p-4 mx-auto text-xl font-semibold text-center shadow-lg sm:p-8 md:text-left h-fit drop-shadow-lg bg-slate-100 text-gunmetal/60"
   >
@@ -21,7 +21,7 @@
         use:link
         href={article.blogArticle}
         class="transition-all duration-300 md:hover:scale-110 text-celestialBlue"
-        >Read Here</a
+        >{article.readHere}</a
       >
     </div>
   </div>
