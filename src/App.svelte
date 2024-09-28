@@ -1,9 +1,12 @@
 <script>
+  // Svelte Stores
+  import { language } from "./scripts/stores";
+
   // Svelte Routing Library
   import { Router, Route } from "svelte-routing";
 
   // 828 LLC Articles
-  import articles from "./scripts/articlesContent";
+  import { articlesEN, articlesES } from "./scripts/articlesContent";
 
   // 828 LLC Layouts
   import Header from "./layouts/Header.svelte";
@@ -46,19 +49,36 @@
       <Route path="/contact-us" component={Contact} />
       <Route path="/services" component={Services} />
       <Route path="/projects" component={Projects} />
-      {#each articles as article}
-        <Route path={article.blogArticle}>
-          <Article
-            blogTitle={article.blogTitle}
-            authorName={article.authorName}
-            authorTitle={article.authorTitle}
-            blogSource={article.blogSource}
-            blogSourceName={article.blogSourceName}
-            blogContent={article.blogContent}
-            blogDate={article.blogDate}
-          />
-        </Route>
-      {/each}
+
+      {#if $language == true}
+        {#each articlesEN as article}
+          <Route path={article.blogArticle}>
+            <Article
+              blogTitle={article.blogTitle}
+              authorName={article.authorName}
+              authorTitle={article.authorTitle}
+              blogSource={article.blogSource}
+              blogSourceName={article.blogSourceName}
+              blogContent={article.blogContent}
+              blogDate={article.blogDate}
+            />
+          </Route>
+        {/each}
+      {:else}
+        {#each articlesES as article}
+          <Route path={article.blogArticle}>
+            <Article
+              blogTitle={article.blogTitle}
+              authorName={article.authorName}
+              authorTitle={article.authorTitle}
+              blogSource={article.blogSource}
+              blogSourceName={article.blogSourceName}
+              blogContent={article.blogContent}
+              blogDate={article.blogDate}
+            />
+          </Route>
+        {/each}
+      {/if}
     </Router>
   </Main>
   <Footer />
