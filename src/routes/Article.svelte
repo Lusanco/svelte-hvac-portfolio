@@ -1,5 +1,6 @@
 <script>
   import { link } from "svelte-routing";
+  import { language } from "../scripts/stores";
 
   export let blogTitle = "Article Title";
   export let authorName = "Author Name";
@@ -23,11 +24,20 @@
       <h3 class="md:-mt-2 text-gunmetal/50">
         {authorName}, {authorTitle}
       </h3>
-      <p class="md:-mt-2 text-celestialBlue/50">Published: {blogDate}</p>
+      <p class="md:-mt-2 text-celestialBlue/50">
+        {$language ? "Published:" : "Publicado:"}
+        {blogDate}
+      </p>
       <p class="md:-mt-2">
-        Source: <a class="font-extrabold underline" use:link href={blogSource}
+        {$language ? "Source:" : "Fuente:"}
+        <a class="font-extrabold underline" use:link href={blogSource}
           >{blogSourceName}</a
         >
+      </p>
+      <p class="pt-4 text-sm font-bold text-celestialBlue/70">
+        {$language
+          ? "The original articles were written in spanish. The ones at this section are being translated by the writer but might not capture all the original semantics."
+          : ""}
       </p>
     </div>
 
@@ -35,14 +45,15 @@
       <p
         class="py-2 text-justify transition-all duration-300 rounded-md md:px-4 text-gunmetal/50 hover:text-gunmetal/70 hover:bg-slate-100 md:hover:scale-105"
       >
-        {paragraph}
+        {@html paragraph}
       </p>
     {/each}
     <div class="flex flex-col items-center justify-center w-full md:block">
       <a
         use:link
         href="/education"
-        class="flex md:float-right text-celestialBlue">Back to Education</a
+        class="flex md:float-right text-celestialBlue"
+        >{$language ? "Back" : "Regresar"}</a
       >
     </div>
   </div>

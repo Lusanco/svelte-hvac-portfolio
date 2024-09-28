@@ -4,9 +4,11 @@
   import Logo from "../components/Logo.svelte";
   import { EN, ES } from "../scripts/localizationContent";
 
-  function toggleLanguage() {
-    language.update((value) => !value);
-    console.log("Language Updated"); // Toggle between true/false
+  function chooseEnglish() {
+    language.set(true);
+  }
+  function chooseSpanish() {
+    language.set(false);
   }
 
   let urlStyles = " border-b-4 border-celestialBlue ";
@@ -152,9 +154,9 @@
         <li>{$language ? EN.header.contactUs : ES.header.contactUs}</li>
       </a>
       <div class="flex flex-col items-center justify-center text-xs">
-        <button on:click={toggleLanguage}>English</button>
+        <button on:click={chooseEnglish}>English</button>
         <span>- ó -</span>
-        <button on:click={toggleLanguage}>Español</button>
+        <button on:click={chooseSpanish}>Español</button>
       </div>
     </ul>
   </nav>
