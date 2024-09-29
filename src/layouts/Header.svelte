@@ -114,7 +114,7 @@
           {$language ? EN.header.contactUs : ES.header.contactUs}
         </li>
       </a>
-      <div class="flex items-center justify-center p-4 border-b-2">
+      <div class="flex items-center justify-center gap-4 p-4 border-b-2">
         <button on:click={chooseEnglish}>English</button>
         <span>- ó -</span>
         <button on:click={chooseSpanish}>Español</button>

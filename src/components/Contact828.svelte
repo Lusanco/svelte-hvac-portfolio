@@ -14,7 +14,7 @@
   >
     <a
       href="tel:+1-939-336-9191"
-      class="flex w-full max-w-3xl gap-4 p-4 font-bold transition-all duration-300 shadow-md min-h-24 max-h-24 md:w-96 hover:scale-105 bg-gunmetal drop-shadow-md text-slate-100"
+      class="flex w-full max-w-3xl gap-4 p-4 font-bold transition-all duration-300 scale-75 shadow-md md:scale-100 min-h-24 max-h-24 md:w-96 hover:scale-105 bg-gunmetal drop-shadow-md text-slate-100"
     >
       <div class="flex flex-col w-2/12 m-auto text-center">
         <i class="text-2xl fa-solid fa-phone"></i>
@@ -29,7 +29,7 @@
 
     <a
       href="mailto:geraldo.pena@828-llc.com"
-      class="flex w-full max-w-3xl gap-4 p-4 font-bold transition-all duration-300 shadow-md min-h-24 max-h-24 md:w-96 hover:scale-105 bg-gunmetal drop-shadow-md text-slate-100"
+      class="flex w-full max-w-3xl gap-4 p-4 font-bold transition-all duration-300 scale-75 shadow-md md:scale-100 min-h-24 max-h-24 md:w-96 hover:scale-105 bg-gunmetal drop-shadow-md text-slate-100"
     >
       <div class="flex flex-col w-2/12 m-auto text-center">
         <i class="text-2xl fa-solid fa-envelope"></i>
@@ -43,7 +43,7 @@
     </a>
     <a
       href="https://www.instagram.com/828llc.pr/"
-      class="flex w-full max-w-3xl gap-4 p-4 font-bold transition-all duration-300 shadow-md min-h-24 max-h-24 md:w-96 hover:scale-105 bg-gunmetal drop-shadow-md text-slate-100"
+      class="flex w-full max-w-3xl gap-4 p-4 font-bold transition-all duration-300 scale-75 shadow-md md:scale-100 min-h-24 max-h-24 md:w-96 hover:scale-105 bg-gunmetal drop-shadow-md text-slate-100"
     >
       <div class="flex flex-col w-2/12 m-auto text-center">
         <i class="text-2xl fa-brands fa-square-instagram"></i>
