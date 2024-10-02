@@ -160,7 +160,7 @@
       </a>
       <div class="flex flex-col items-center justify-center text-xs">
         <button on:click={chooseEnglish}>English</button>
-        <span>- ó -</span>
+        <span>---</span>
         <button on:click={chooseSpanish}>Español</button>
       </div>
     </ul>
