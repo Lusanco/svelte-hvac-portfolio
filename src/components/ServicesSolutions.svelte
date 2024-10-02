@@ -61,7 +61,7 @@
       </div>
       <div>
         <h2 class="text-3xl font-bold">
-          {$language ? EN.servicesSolutions.h2b : ES.servicesSolutions.h2b}
+          {$language ? EN.servicesSolutions.h2c : ES.servicesSolutions.h2c}
         </h2>
         <ul class="md:pl-4">
           <li class="md:list-disc">
