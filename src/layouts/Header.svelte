@@ -116,7 +116,7 @@
       </a>
       <div class="flex items-center justify-center gap-4 p-4 border-b-2">
         <button on:click={chooseEnglish}>English</button>
-        <span>- ó -</span>
+        <span>/</span>
         <button on:click={chooseSpanish}>Español</button>
       </div>
     </ul>
