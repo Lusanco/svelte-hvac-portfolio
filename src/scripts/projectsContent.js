@@ -82,7 +82,7 @@ export const projectsES = [
   {
     id: 3,
     description:
-      "Reparación de chiller Trane de 120 Tons. Se reemplazaron las estructuras de acero que sujetan los compresores, y estas fueron fabricadas a la medida, válvulas, 3 de los 4 compresores de espiral y otros elementos mecánicos y eléctricos. El proyecto está ubicado en uno de los principales campuses universitarios de Puerto Rico.",
+      "Reparación de chiller Trane de 120 Tons. Se reemplazaron las estructuras de acero que sujetan los compresores, y estas fueron fabricadas a la medida, válvulas, 3 de los 4 compresores tipo scroll y otros elementos mecánicos y eléctricos. El proyecto está ubicado en uno de los principales campuses universitarios de Puerto Rico.",
     images: [
       "/imgs/3/New replaced compressors and structural bases (1).jpg",
       "/imgs/3/Chiller structural base and compressor zoomed view.jpg",
