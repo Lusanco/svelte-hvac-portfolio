@@ -109,7 +109,7 @@ export const ES = {
     aboutUs: "Conócenos",
     services: "Servicios",
     projects: "Proyectos",
-    education: "Artículos Educativos",
+    education: "Educación",
     contactUs: "Contáctanos",
   },
   indexHero: {
