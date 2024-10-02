@@ -26,7 +26,7 @@ export const articlesEN = [
     blogSourceName: "El Vocero",
     authorName: "Geraldo Peña Guzmán",
     authorTitle: "Engineer",
-    authorImg: "",
+    authorImg: "/imgs/Ing. Geraldo Peña Guzmán (Foto) square.jpg",
     readHere: "Read Here",
   },
   {
@@ -53,7 +53,7 @@ export const articlesEN = [
     blogSourceName: "El Vocero",
     authorName: "Geraldo Peña Guzmán",
     authorTitle: "Engineer",
-    authorImg: "",
+    authorImg: "/imgs/Ing. Geraldo Peña Guzmán (Foto) square.jpg",
     readHere: "Read Here",
   },
 ];
@@ -86,7 +86,7 @@ export const articlesES = [
     blogSourceName: "El Vocero",
     authorName: "Geraldo Peña Guzmán",
     authorTitle: "Ingeniero",
-    authorImg: "",
+    authorImg: "/imgs/Ing. Geraldo Peña Guzmán (Foto) square.jpg",
     readHere: "Lea Aquí",
   },
   {
@@ -113,7 +113,7 @@ export const articlesES = [
     blogSourceName: "El Vocero",
     authorName: "Geraldo Peña Guzmán",
     authorTitle: "Ingeniero",
-    authorImg: "",
+    authorImg: "/imgs/Ing. Geraldo Peña Guzmán (Foto) square.jpg",
     readHere: "Lea Aquí",
   },
 ];
