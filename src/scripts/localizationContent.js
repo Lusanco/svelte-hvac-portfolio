@@ -85,7 +85,7 @@ export const EN = {
     a: "Contact Us",
   },
   projectsGallery: {
-    h1: "Projects",
+    h1: "Some of Our Projects",
   },
   educationArticles: {
     h1: "Educational Articles",
@@ -191,7 +191,7 @@ export const ES = {
     a: "Contáctanos",
   },
   projectsGallery: {
-    h1: "Proyectos",
+    h1: "Algunos de Nuestros Proyectos",
   },
   educationArticles: {
     h1: "Artículos Educativos",
