@@ -136,7 +136,7 @@ export const ES = {
   about828: {
     h1: "Conócenos",
     p1: "828 LLC es una empresa dedicada a las instalaciones mecánicas, en su mayoría relacionadas con el campo de HVAC (Heating, Ventilation & Air Conditioning – por sus siglas en inglés). Ofrecemos servicios de ingeniería relacionados con este campo y con el de la Energía. Trabajamos en la instalación y ejecución general de proyectos, y tenemos amplios conocimientos en básicamente todo tipo de equipos de aire acondicionado y ventilación. Con esto nos referimos a Chillers, VRF, Unidades Tipo Paquetes, Splits Comerciales y Residenciales, Distribución de Aire, Controles Automatizados, entre otros.",
-    p2: "El servicio al cliente es clave para nuestras operaciones, y creemos en mantener siempre el más alto nivel en ello. Escuchamos a nuestro cliente y nos interesa genuinamente conocer sus requerimientos. Es así como creamos un equipo de trabajo comunicativo y eficiente con ellos, lo que redunda en soluciones viables en todo sentido.",
+    p2: "El servicio al cliente es clave para nuestras operaciones, y creemos en mantener siempre el más alto nivel en ello. Escuchamos a nuestro cliente y genuinamente nos interesa conocer sus requerimientos. Es así como creamos un equipo de trabajo comunicativo y eficiente con ellos, lo que redunda en soluciones viables en todo sentido.",
     p3: "La ética y la integridad son pilares en nuestra empresa.",
   },
   aboutMission: {
