@@ -57,6 +57,7 @@
               blogTitle={article.blogTitle}
               authorName={article.authorName}
               authorTitle={article.authorTitle}
+              authorImg={article.authorImg}
               blogSource={article.blogSource}
               blogSourceName={article.blogSourceName}
               blogContent={article.blogContent}
@@ -71,6 +72,7 @@
               blogTitle={article.blogTitle}
               authorName={article.authorName}
               authorTitle={article.authorTitle}
+              authorImg={article.authorImg}
               blogSource={article.blogSource}
               blogSourceName={article.blogSourceName}
               blogContent={article.blogContent}
