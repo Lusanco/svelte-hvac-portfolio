@@ -1,0 +1,20 @@
+# Svelte HVAC Portfolio Client License
+
+Copyright (c) 2024 Luis Santiago and 828 LLC
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to use, copy, modify, and merge the Software for non-commercial purposes, subject to the following conditions:
+
+## Non-Commercial Use Only
+The Software may not be used for any commercial purposes outside of the client's internal environment.
+
+## Restricted Deployment
+The Software may only be deployed on servers or hosting environments specifically designated by the client. Public distribution, hosting, or access is prohibited unless explicitly authorized by the client.
+
+## No Unauthorized Reproduction of Client Content
+The Software may not be used to reproduce, distribute, or create derivative works based on the client’s proprietary content without the client’s explicit written permission.
+
+## Inclusion of License and Copyright Notice
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+## No Warranty
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT, OR OTHERWISE, ARISING FROM, OUT OF, OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
