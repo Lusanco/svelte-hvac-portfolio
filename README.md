@@ -89,3 +89,7 @@ This generates production-ready HTML, CSS, and JavaScript files in the `dist` di
 
 This project is licensed under the [Svelte HVAC Portfolio Client License](LICENSE). Please review the LICENSE file for more information.
 
+## Additional Notes:
+
+- The included [PDFs](public/pdfs/) in the `public/pdfs` directory are for reference only and may not fully reflect the current state of the web application due to potential rendering artifacts (e.g., horizontal bars from page divisions). These PDFs serve as a visual timeline of the project.
+- For the most accurate and interactive representation, please visit the deployed website at https://828-llc.com/.
