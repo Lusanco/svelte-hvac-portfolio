@@ -2,6 +2,7 @@
   import { link } from "svelte-routing";
   import { EN, ES } from "../scripts/localizationContent";
   import { language } from "../scripts/stores";
+  import { ghPath } from "../scripts/ghPages";
 </script>
 
 <main class="flex flex-col text-center shadow-2xl lg:text-left">
@@ -29,7 +30,7 @@
       <div class="w-full">
         <a
           use:link
-          href="/services"
+          href={`${ghPath}/services`}
           class="flex px-4 py-2 mx-auto text-lg font-semibold transition-all duration-300 rounded-md shadow-md lg:float-right drop-shadow-md hover:bg-celestialBlue/90 bg-celestialBlue w-fit"
           >{$language ? EN.indexServices.a : ES.indexServices.a}</a
         >

@@ -1,6 +1,7 @@
 <script>
   import { link } from "svelte-routing";
   import { language } from "../scripts/stores";
+  import { ghPath } from "../scripts/ghPages";
 
   export let blogTitle = "Article Title";
   export let authorName = "Author Name";
@@ -40,7 +41,11 @@
         </p>
       </div>
       <div class="p-4 m-auto md:p-0 md:m-0 min-w-24 min-h-24">
-        <img class="w-24 h-24 rounded-full" src={authorImg} alt="" />
+        <img
+          class="w-24 h-24 rounded-full"
+          src={`${ghPath}${authorImg}`}
+          alt="author"
+        />
       </div>
     </div>
 
@@ -60,7 +65,7 @@
     <div class="flex flex-col items-center justify-center w-full md:block">
       <a
         use:link
-        href="/education"
+        href={`${ghPath}/education`}
         class="flex md:float-right text-celestialBlue"
         >{$language ? "Back" : "Regresar"}</a
       >

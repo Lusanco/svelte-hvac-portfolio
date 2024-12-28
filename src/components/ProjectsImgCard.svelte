@@ -14,6 +14,8 @@
   import "@splidejs/svelte-splide/css/core";
   import { language } from "../scripts/stores";
 
+  import { ghPath } from "../scripts/ghPages";
+
   const options = {
     type: "loop",
     autoplay: true,
@@ -37,7 +39,7 @@
             <!-- Main Image -->
             <img
               class="flex flex-col object-contain object-center mx-auto h-80"
-              src={image}
+              src={`${ghPath}${image}`}
               alt=""
             />
           </SplideSlide>
@@ -63,7 +65,7 @@
             <!-- Main Image -->
             <img
               class="flex flex-col object-contain object-center mx-auto h-80"
-              src={image}
+              src={`${ghPath}${image}`}
               alt=""
             />
           </SplideSlide>

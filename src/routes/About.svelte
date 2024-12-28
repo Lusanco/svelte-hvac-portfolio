@@ -4,6 +4,7 @@
   import AboutValues from "../components/AboutValues.svelte";
   import About828 from "../components/About828.svelte";
   import AboutMissionVision from "../components/AboutMissionVision.svelte";
+  import { ghPath } from "../scripts/ghPages";
 
   $urlLocation = window.location.pathname;
 </script>

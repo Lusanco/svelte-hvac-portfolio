@@ -4,12 +4,13 @@
   import Logo from "./Logo.svelte";
   import { EN, ES } from "../scripts/localizationContent";
   import { language } from "../scripts/stores";
+  import { ghPath } from "../scripts/ghPages";
 </script>
 
 <section class="flex flex-col shadow-2xl md:flex-row overflow-clip">
   <!--vv Left/Top Side vv-->
   <div
-    class="bg-[url('/imgs/IMG_3566.jpg')] text-slate-100 bg-no-repeat bg-cover bg-center md:w-2/3"
+    class={`bg-[url('/imgs/IMG_3566.jpg')] text-slate-100 bg-no-repeat bg-cover bg-center md:w-2/3`}
   >
     <div
       class="flex flex-col px-2 py-12 font-semibold text-center md:text-left bg-black/50 hover:bg-black/60 md:p-12"
@@ -23,7 +24,7 @@
       <br />
       <a
         use:link
-        href="/contact-us"
+        href={`${ghPath}/contact-us`}
         class="p-4 font-semibold text-center transition-all duration-300 rounded-md shadow-md drop-shadow-md hover:bg-celestialBlue/90 bg-celestialBlue text-slate-100"
       >
         {$language ? EN.indexHero.a : ES.indexHero.a}

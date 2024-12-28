@@ -2,6 +2,7 @@
   import { link } from "svelte-routing";
   import { language } from "../scripts/stores";
   import { articlesEN, articlesES } from "../scripts/articlesContent";
+  import { ghPath } from "../scripts/ghPages";
 </script>
 
 {#if $language == true}
@@ -23,7 +24,7 @@
         <p class="text-gunmetal/50">{article.blogDate}</p>
         <a
           use:link
-          href={article.blogArticle}
+          href={`${ghPath}${article.blogArticle}`}
           class="transition-all duration-300 md:hover:scale-110 text-celestialBlue"
           >{article.readHere}</a
         >
@@ -49,7 +50,7 @@
         <p class="text-gunmetal/50">{article.blogDate}</p>
         <a
           use:link
-          href={article.blogArticle}
+          href={`${ghPath}${article.blogArticle}`}
           class="transition-all duration-300 md:hover:scale-110 text-celestialBlue"
           >{article.readHere}</a
         >

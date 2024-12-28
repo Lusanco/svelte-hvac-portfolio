@@ -2,6 +2,7 @@
   import { link } from "svelte-routing";
   import { EN, ES } from "../scripts/localizationContent";
   import { language } from "../scripts/stores";
+  import { ghPath } from "../scripts/ghPages";
 </script>
 
 <section
@@ -13,7 +14,7 @@
 
   <a
     use:link
-    href="/contact-us"
+    href={`${ghPath}/contact-us`}
     class="p-4 transition-all duration-300 rounded-md shadow-md bg-slate-100 text-celestialBlue drop-shadow-md hover:bg-white"
     >{$language ? EN.servicesContactUs.a : ES.servicesContactUs.a}</a
   >

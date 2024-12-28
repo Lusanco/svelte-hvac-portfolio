@@ -2,6 +2,7 @@
   import { link } from "svelte-routing";
   import { EN, ES } from "../scripts/localizationContent";
   import { language } from "../scripts/stores";
+  import { ghPath } from "../scripts/ghPages";
 </script>
 
 <section
@@ -13,7 +14,7 @@
   </p>
   <a
     use:link
-    href="/about-us"
+    href={`${ghPath}/about-us`}
     class="px-4 py-2 mx-auto text-lg font-semibold transition-all duration-300 rounded-md shadow-md drop-shadow-md hover:bg-slate-100/90 bg-slate-100 w-fit text-gunmetal"
     >{$language ? EN.indexAbout.a : ES.indexAbout.a}</a
   >

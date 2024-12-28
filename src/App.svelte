@@ -21,6 +21,7 @@
   import Education from "./routes/Education.svelte";
   import Projects from "./routes/Projects.svelte";
   import Article from "./routes/Article.svelte";
+  import { ghPath } from "./scripts/ghPages";
 </script>
 
 <!-- Head Tag Imports -->
@@ -43,16 +44,16 @@
   <Header />
   <Main>
     <Router>
-      <Route path="/" component={Index} />
-      <Route path="/about-us" component={About} />
-      <Route path="/education" component={Education} />
-      <Route path="/contact-us" component={Contact} />
-      <Route path="/services" component={Services} />
-      <Route path="/projects" component={Projects} />
+      <Route path={`${ghPath}/`} component={Index} />
+      <Route path={`${ghPath}/about-us`} component={About} />
+      <Route path={`${ghPath}/education`} component={Education} />
+      <Route path={`${ghPath}/contact-us`} component={Contact} />
+      <Route path={`${ghPath}/services`} component={Services} />
+      <Route path={`${ghPath}/projects`} component={Projects} />
 
       {#if $language == true}
         {#each articlesEN as article}
-          <Route path={article.blogArticle}>
+          <Route path={`${ghPath}${article.blogArticle}`}>
             <Article
               blogTitle={article.blogTitle}
               authorName={article.authorName}
@@ -67,7 +68,7 @@
         {/each}
       {:else}
         {#each articlesES as article}
-          <Route path={article.blogArticle}>
+          <Route path={`${ghPath}${article.blogArticle}`}>
             <Article
               blogTitle={article.blogTitle}
               authorName={article.authorName}
